@@ -9,15 +9,15 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>M8 - Introduction to Network Pricing - Time Series Analysis for Energy Data</title>
+<!-- begin _includes/seo.html --><title>M8 - Model Diagnostics, Selection and Performance - Time Series Analysis</title>
 <meta name="description" content="">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Time Series Analysis for Energy Data">
-<meta property="og:title" content="M8 - Introduction to Network Pricing">
+<meta property="og:site_name" content="Time Series Analysis">
+<meta property="og:title" content="M8 - Model Diagnostics, Selection and Performance">
 <meta property="og:url" content="http://localhost:4000/docs/modules/M8d/">
 
 
@@ -60,7 +60,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis for Energy Data Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -101,14 +101,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis for Energy Data"></a>
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
         
         <a class="site-title" href="/">
-          Time Series Analysis for Energy Data
-          <span class="site-subtitle">ENVIRON 790.30</span>
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/_pages/syllabus/">Overview</a>
+              <a href="/_pages/syllabus/">Syllabus</a>
             </li><li class="masthead__menu-item">
               <a href="/_pages/lessons/">Schedule</a>
             </li><li class="masthead__menu-item">
@@ -195,22 +195,6 @@
         
       </li>
     
-      <li>
-        
-          <a href="/docs/modules/M5/"><span class="nav__sub-title">Module 5</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M6/"><span class="nav__sub-title">Module 6</span></a>
-        
-
-        
-      </li>
-    
   </ul>
 </nav>
 
@@ -221,7 +205,7 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="M8 - Introduction to Network Pricing">
+    <meta itemprop="headline" content="M8 - Model Diagnostics, Selection and Performance">
     
     
     
@@ -230,7 +214,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/docs/modules/M8d/" class="u-url" itemprop="url">M8 - Introduction to Network Pricing
+            <a href="http://localhost:4000/docs/modules/M8d/" class="u-url" itemprop="url">M8 - Model Diagnostics, Selection and Performance
 </a>
           </h1>
           
@@ -243,39 +227,49 @@
         
         <h2 id="learning-objectives">Learning Objectives</h2>
 
-<p>In this module we will talk about the fundamentals of transmission/distribution network pricing. The learning outcomes of this week are:</p>
+<p>The learning goals for this module are: <br /></p>
 
 <ul>
-  <li>Understand the motivation behind deregulation process and need for economic regulation for Transmission and Distribution;</li>
-  <li>Learn economic regulation modes more specifically incentive-based regulation;</li>
-  <li>Familiarize with nomenclature and differences among electricity price, tariff and rate;</li>
-  <li>Introduction to transmission and distribution network pricing;</li>
-  <li>Understand the first step of pricing structure: calculating the utilities’ required revenue;</li>
+  <li>Discuss model selection criteria: Akaike and Bayesian Information Criteria; <br /></li>
+  <li>Discuss residual analyis; <br /></li>
+  <li>Introduce commom forecast performance/accuracy metrics; <br /></li>
+  <li>Learn how to compute forecast accuracy in R. <br /></li>
 </ul>
 
 <h2 id="slides">Slides</h2>
 
-<p>Here is a <a href="/docs/modules/PPTS/PSE_M8_IntrotoPricingI_OPEX_part1.pdf"> link </a> to the slide deck used in class.</p>
-
-<h2 id="recordings">Recordings</h2>
-<ul>
-  
-  </ul>
+<p>Here is a <a href="/docs/modules/PPTS/TSA_M8_Model_Diagnostics.pdf"> link </a> to the slide deck used in class.</p>
 
 <h2 id="resources">Resources</h2>
 
-<p>Additional resources and readings on network pricing.</p>
-
 <ul>
-  <li><a href="/docs/modules/readings/M8_TAC_Structure.pdf"> Transmission Access Charges </a></li>
-  <li><a href="/docs/modules/readings/M8_Paper_Dist_Pricing_IEEE.pdf"> Distribution Network Pricing World Wide Trend </a></li>
+  <li>Time Series Analysis with Applications - Cryer and Shan - <a href="/docs/modules/readings/M8_TSA-cryer-ch8.pdf"> Chapter 8: Diagnostics </a> <br /></li>
 </ul>
 
-<h2 id="topics-for-discussionreflection">Topics for Discussion/Reflection</h2>
+<h2 id="recordings">Recordings</h2>
+
+<p>The first video will discuss model selection and performance.</p>
+<iframe width="260" height="115" src="https://www.youtube.com/embed/jEQDyTvRmiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p>The second video will explore resiual analysis.</p>
+<iframe width="260" height="115" src="https://www.youtube.com/embed/XcCSXDu4Fx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<h2 id="optional-readings">Optional Readings</h2>
+
+<p>If you want to learn more about parameter estimation for the ARIMA model, please refer to the additional material below.  The slides will go over how to estimate the autoregressive coefficient (i.e. PACF values), moving average coefficent and variance of residuals.</p>
+
+<ul>
+  <li>
+    <p><a href="/docs/modules/PPTS/TSA_M8.1_Parameter_Estimation.pdf"> ARIMA Parameter Estimation </a></p>
+  </li>
+  <li>
+    <p>Time Series Analysis with Applications - Cryer and Shan - <a href="/docs/modules/readings/M8_TSA-cryer-ch7.pdf"> Chapter 7: Parameter Estimation </a> <br /></p>
+  </li>
+</ul>
 
 <h2 id="deliverables">Deliverables</h2>
 
-<p>For this module you will do a journal entry using Sakai discussion. Here is the journal entry <a href="https://sakai.duke.edu/portal/site/fc198b90-9d77-4c6b-8708-c9d0d044be5b/tool/26e522a4-84f3-4d97-9ad5-a7c405e8ea92/discussionForum/message/dfAllMessages">J5 link</a>. The due date for J5 is Tuesday Nov 1st for journal entries and Friday Nov 4th for journal comments.</p>
+<p>For this module you will complete <a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main">Assignment 8</a>. The due date for A8 is March 27.</p>
 
         
       </section>
@@ -317,15 +311,15 @@
     
       
         
-          <li><a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
         
       
         
-          <li><a href="https://app.slack.com/client/T04HMQAUCVD/C04HMQG2V1V" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
         
       
         
-          <li><a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -337,7 +331,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Luana Lima, Duke University</div>
+<div class="page__footer-copyright">&copy; 2024 Luana Lima, Duke University</div>
 
 
       </footer>

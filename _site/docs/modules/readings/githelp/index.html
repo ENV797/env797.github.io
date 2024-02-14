@@ -1,0 +1,435 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Version Control and Git - Time Series Analysis</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Time Series Analysis">
+<meta property="og:title" content="Version Control and Git">
+<meta property="og:url" content="http://localhost:4000/docs/modules/readings/githelp/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/docs/modules/readings/githelp/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
+        
+        <a class="site-title" href="/">
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/_pages/syllabus/">Syllabus</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/lessons/">Schedule</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/modulelist/">Modules</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/assignments/">Assignments</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/_pages/modulelist/"><span class="nav__sub-title">Overview</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M1/"><span class="nav__sub-title">Module 1</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/modules/readings/soft-mac/">Setting up R and RStudio - MAC</a></li>
+          
+            <li><a href="/docs/modules/readings/soft-win/">Setting up R and RStudio - WIN</a></li>
+          
+            <li><a href="/docs/modules/readings/gitsetup/">Setting up GitHub</a></li>
+          
+            <li><a href="/docs/modules/readings/githelp/" class="active">Getting Started with GitHub</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M2/"><span class="nav__sub-title">Module 2</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M3/"><span class="nav__sub-title">Module 3</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M4/"><span class="nav__sub-title">Module 4</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Version Control and Git">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/docs/modules/readings/githelp/" class="u-url" itemprop="url">Version Control and Git
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#version-control">Version Control</a></li><li><a href="#licensing">Licensing</a></li><li><a href="#functions-in-git">Functions in Git</a></li><li><a href="#editing-committing-pushing">Editing, Committing, Pushing</a></li><li><a href="#pulling-from-the-remote">Pulling from the Remote</a></li><li><a href="#pulling-from-the-upstream-remote">Pulling from the Upstream Remote</a></li><li><a href="#merge">Merge</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>This material was adapted from ENV 872 - Environmental Data Analytics and developed by Prof. John Fay.</p>
+
+<h2 id="version-control">Version Control</h2>
+
+<p><strong>Version control</strong> is the process by which all changes to code, text, and files are tracked. In this manner, we’re also able to maintain data and information to support collaborative projects, but to also make sure your analyses are preserved.</p>
+
+<p><strong>GitHub</strong> is the web hosting platform for maintaining our Git repositories. Our version control system for the purposes of this course is <strong>Git</strong>.</p>
+
+<p>GitHub repositories come in two forms: public and private. All the project repositories you will use for this course are public. There may be situations in the future in which you may want to make use of private repositories, in which data and progress are protected from public view. Private repositories can be made public at a later date.</p>
+
+<h2 id="licensing">Licensing</h2>
+
+<p>Licensing is also important to specify who and how your code can be used by others. Various license types are available for use with a decision tree available <a href="https://choosealicense.com/">here</a>. For the purposes of this work, we recommend a <a href="https://choosealicense.com/licenses/gpl-3.0/">GNU General Public License version 3</a>. This is a free and widely-trusted <em>copyleft</em> license. A copyleft is an arrangement whereby software or artist work may be used, modified, and distributed freely on condition that anything derived from it is bound by the same condition. Unless you plan to charge a fee for use of your code, the GPLv3.0 comes highly recommended.</p>
+
+<p>For more information about licensing your code, check out this <a href="https://help.github.com/articles/licensing-a-repository/">link</a>.</p>
+
+<h2 id="functions-in-git">Functions in Git</h2>
+
+<p>There are two ways to diverge code from a main project: <strong>branching</strong> and <strong>forking</strong>
+A <em>branch</em> is a temporary segment often used for development. We will not be making use of branching for the purposes of this class, but it is worth spending some time reading about them to see how they can be incorporated into collaborative projects. 
+A <em>fork</em> is a copy or clone of the main project. Forking allows for greater oversight in the merging process and prevents changes being committed to the main project.</p>
+
+<h2 id="editing-committing-pushing">Editing, Committing, Pushing</h2>
+
+<ol>
+  <li>
+    <p>Navigate to the “README.md” file in the Files tab and open it. <br /></p>
+  </li>
+  <li>
+    <p>Type your name after “Student:” and save. <br /></p>
+  </li>
+  <li>
+    <p>Now that you have edited a file, it should now appear in the Git tab. Click the box to the left of the file, where a check mark should now appear. <br /></p>
+  </li>
+  <li>
+    <p>Press the “Commit” button. A new window should appear that shows the changes that have been made to the file. <br /></p>
+  </li>
+  <li>
+    <p>Write a message detailing the edits you’ve made to the README file. You should always include a commit message to your commits so that your future self and/or your collaborators will know what changes were made. Click “Commit”.</p>
+  </li>
+  <li>
+    <p>Click the green upward facing arrow: the “Push” button. Your remote repository is now up to date with your local repository.</p>
+  </li>
+</ol>
+
+<p>The commit command records the changes you’ve made to files in your project. <strong>Commits</strong> are useful to track important milestones in your progress. You should always make a commit at least once every time you log onto a project (e.g., once daily). However, simply committing your changes does not save those changes to your remote repository. This is where <strong>push</strong> comes in. By pushing your new commits to the remote repository, you are ensuring that your local and remote repositories contain the same changes. You must have an internet connection to push, but you can make several commits offline and push them when you regain an internet connection.</p>
+
+<p>Commits and pushes can also be done in the Terminal by typing commands (i.e., the command line). Navigating to the Terminal tab will allow you to type these commands. The relevant commands are:</p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git commit
+git push
+</span></code></pre></div></div>
+
+<p>Note: files must be staged in order to use the command <code class="language-plaintext highlighter-rouge">git commit</code>, and a commit message must still be used.</p>
+
+<p>If you are using a Mac, you will need to take the following steps to enter your commit message:</p>
+
+<ol>
+  <li>
+    <p>press “i” to indicate insert</p>
+  </li>
+  <li>
+    <p>write your merge message</p>
+  </li>
+  <li>
+    <p>press “esc” to indicate you are exiting the insertion</p>
+  </li>
+  <li>
+    <p>write “:wq” to indicate write then quit</p>
+  </li>
+  <li>
+    <p>press enter</p>
+  </li>
+</ol>
+
+<h2 id="pulling-from-the-remote">Pulling from the Remote</h2>
+
+<p>If there are changes in your remote repository that you want to incorporate into your local repository, you will need to pull them into your local repository.</p>
+
+<ol>
+  <li>Click the blue downward facing arrow: the “Pull” button. Your local repository is now up to date with your remote repository.</li>
+</ol>
+
+<h2 id="pulling-from-the-upstream-remote">Pulling from the Upstream Remote</h2>
+
+<p>Your instructor will regularly update the course repository. However, this will not update the repository that you’ve forked into your own user account (i.e., remote) unless you tell it to do so. <br /></p>
+
+<p>Type the following commands into the Terminal window in RStudio (bottom left) <br /></p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git remote add upstream https://github.com/ENV797/TSA_Sp24
+git pull upstream main
+</span></code></pre></div></div>
+
+<p>An alternate to pull is fetch + merge: <br /></p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git fetch upstream main
+git merge upstream
+</span></code></pre></div></div>
+
+<p>Note: these steps will update your local repository, but will not update your remote. To bring your remote up to date, you will need to push your changes. <br /></p>
+
+<p>Note: you will not be pushing any of your changes to the upstream remote, as you do not have the appropriate permissions to do so. <br /></p>
+
+<h2 id="merge">Merge</h2>
+
+<p>Sometimes, files in your local and remote repositories will have changes that are different. In this case, you will need to merge the files together in a way that incorporates the changes in a manner that you choose (merge). When a merge conflict occurs, you will need to open the conflicted file in RStudio, review any edits that are inconsistent across versions, and make edits to incorporate all desired updates. You may then commit and push. <br /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+        
+      
+        
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://cmgr.oit.duke.edu/containers" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Rcontainer</a></li>
+        
+      
+    
+
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Luana Lima, Duke University</div>
+
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

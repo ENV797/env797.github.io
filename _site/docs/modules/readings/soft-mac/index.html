@@ -9,14 +9,14 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Software Installation Guide for Mac Users - Time Series Analysis for Energy Data</title>
+<!-- begin _includes/seo.html --><title>Software Installation Guide for Mac Users - Time Series Analysis</title>
 <meta name="description" content="">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Time Series Analysis for Energy Data">
+<meta property="og:site_name" content="Time Series Analysis">
 <meta property="og:title" content="Software Installation Guide for Mac Users">
 <meta property="og:url" content="http://localhost:4000/docs/modules/readings/soft-mac/">
 
@@ -60,7 +60,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis for Energy Data Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -101,14 +101,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis for Energy Data"></a>
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
         
         <a class="site-title" href="/">
-          Time Series Analysis for Energy Data
-          <span class="site-subtitle">ENVIRON 790.30</span>
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/_pages/syllabus/">Overview</a>
+              <a href="/_pages/syllabus/">Syllabus</a>
             </li><li class="masthead__menu-item">
               <a href="/_pages/lessons/">Schedule</a>
             </li><li class="masthead__menu-item">
@@ -169,6 +169,18 @@
         
 
         
+        <ul>
+          
+            <li><a href="/docs/modules/readings/soft-mac/" class="active">Setting up R and RStudio - MAC</a></li>
+          
+            <li><a href="/docs/modules/readings/soft-win/">Setting up R and RStudio - WIN</a></li>
+          
+            <li><a href="/docs/modules/readings/gitsetup/">Setting up GitHub</a></li>
+          
+            <li><a href="/docs/modules/readings/githelp/">Getting Started with GitHub</a></li>
+          
+        </ul>
+        
       </li>
     
       <li>
@@ -190,22 +202,6 @@
       <li>
         
           <a href="/docs/modules/M4/"><span class="nav__sub-title">Module 4</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M5/"><span class="nav__sub-title">Module 5</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M6/"><span class="nav__sub-title">Module 6</span></a>
         
 
         
@@ -241,72 +237,88 @@
 
       <section class="page__content e-content" itemprop="text">
         
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+
+            </nav>
+          </aside>
+        
         <p>The following steps should be performed on your personal computer. If you already have R and RStudio installed skip to step 4.</p>
 
-<p>1)	Download R from the link <a href="https://cran.r-project.org">https://cran.r-project.org</a>. Click on Download R for (Mac) OS X. Choose the most up to date version R-4.2.2.pkg. Install the package by double-clicking on it and working through the prompts. Leave all default settings in the installation options.</p>
+<ol>
+  <li>
+    <p>Download R from the link <a href="https://cran.r-project.org">https://cran.r-project.org</a>. Click on Download R for (Mac) OS X. Choose the most up to date version R-4.3.1.pkg. Install the package by double-clicking on it and working through the prompts. Leave all default settings in the installation options.</p>
+  </li>
+  <li>
+    <p>Download the free RStudio Desktop for mac from <a href="https://rstudio.com/products/rstudio/download/">https://rstudio.com/products/rstudio/download/</a>. Double click the downloaded .dmg file. Drag RStudio icon to the Applications folder.</p>
+  </li>
+  <li>
+    <p>Verify that RStudio and R are working together by double-clicking the RStudio icon. You should see a RStudio window with three panes.</p>
+  </li>
+  <li>
+    <p>If have already installed R and RStudio just open RStudio and check for any updates by following the steps below. In your console type</p>
+  </li>
+</ol>
 
-<p>2)	Download the free RStudio Desktop for mac from <a href="https://rstudio.com/products/rstudio/download/">https://rstudio.com/products/rstudio/download/</a>. Double click the downloaded .dmg file. Drag RStudio icon to the Applications folder.</p>
-
-<p>3)	Verify that RStudio and R are working together by double-clicking the RStudio icon. You should see a RStudio window with three panes.</p>
-
-<p>4)	If have already installed R and RStudio just open RStudio and check for any updates by following the steps below. In your console type</p>
-
-<blockquote>
-  <p>version</p>
-</blockquote>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">version</span><span class="w">
+</span></code></pre></div></div>
 
 <p>This will show the R version you are running. If you need to update R you can use package updateR. This is the R code you will need to type in your console:</p>
 
-<blockquote>
-  <p>install.packages(‘devtools’) #assuming it is not already installed
-library(devtools)
-install_github(‘andreacirilloac/updateR’)
-library(updateR)
-updateR()</p>
-</blockquote>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s1">'devtools'</span><span class="p">)</span><span class="w"> </span><span class="c1">#assuming it is not already installed</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span><span class="w">
+</span><span class="n">install_github</span><span class="p">(</span><span class="s1">'andreacirilloac/updateR'</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">updateR</span><span class="p">)</span><span class="w">
+</span><span class="n">updateR</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
 
 <p>You will then be prompted to enter your admin password.</p>
 
 <p>Another way to do it is just downloading the new version as in Step 1. Then restart your RStudio. The new R version will be loaded automatically. Then run the following command to update packages.</p>
 
-<blockquote>
-  <p>update.packages()</p>
-</blockquote>
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">update.packages</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
 
 <p>Also check if you have the latest version of RStudio. Just navigate to Help &gt; Check for updates and you be redirect to the website in Step 2 if needed.</p>
 
-<p>5)	Some functions in R require a “X11 server”. You can get this using XQuartz. Download the latest version from <a href="https://www.xquartz.org">https://www.xquartz.org</a>. Open the downloaded DMG file and then double-click on the XQuartz.pkg. Follow the installation steps.</p>
+<ol>
+  <li>
+    <p>Some functions in R require a “X11 server”. You can get this using XQuartz. Download the latest version from <a href="https://www.xquartz.org">https://www.xquartz.org</a>. Open the downloaded DMG file and then double-click on the XQuartz.pkg. Follow the installation steps.</p>
+  </li>
+  <li>
+    <p>Optional for this class. Some packages in R requires compilation. Download and install Xcode (developer tools to create applications for Mac). You can download it from your App Store or use the link: <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">https://apps.apple.com/us/app/xcode/id497799835?mt=12</a>. This will take a while and requires a recent version of iOS. If you are using an old mac, please skip this step.</p>
+  </li>
+  <li>
+    <p>Now you need to install a package manager for macOS called Homebrew. From your Terminal type (or paste) the following command:</p>
+  </li>
+</ol>
 
-<p>6)	Optional for this class. Some packages in R requires compilation. Download and install Xcode (developer tools to create applications for Mac). You can download it from your App Store or use the link: <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">https://apps.apple.com/us/app/xcode/id497799835?mt=12</a>. This will take a while and requires a recent version of iOS. If you are using an old mac, please skip this step.</p>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">/bin/bash -c "$</span><span class="o">(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="o">)</span><span class="s2">"
+</span></code></pre></div></div>
 
-<p>7)	Now you need to install a package manager for macOS called Homebrew. From your Terminal type (or paste) the following command:</p>
+<ol>
+  <li>Install git. Since you have Homebrew this will be simple. From your Terminal use the following command:</li>
+</ol>
 
-<blockquote>
-  <p>/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”</p>
-</blockquote>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">brew install git
+</span></code></pre></div></div>
 
-<p>8)	Install git. Since you have Homebrew this will be simple. From your Terminal use the following command:</p>
+<p>This command you automatically update Homebrew and run the brew clean up. You also need to install git-gui, git’s commit GUI and interactive history browser, use the command</p>
 
-<blockquote>
-  <p>$ brew install git</p>
-</blockquote>
-
-<p>This command you automatically update Homebrew and run the brew clean up. If git is successfully installed you should see a message like this:</p>
-
-<p>You also need to install git-gui, git’s commit GUI and interactive history browser, use the command</p>
-
-<blockquote>
-  <p>$ brew install git-gui</p>
-</blockquote>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">brew install git-gui
+</span></code></pre></div></div>
 
 <p>Make sure to set Git with your name and email address using the following commands on the Terminal with your name and email address.</p>
 
-<blockquote>
-  <p>$ git config –global user.name “username” <br />
-$ git config –global user.email “email@example.com”</p>
-</blockquote>
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">git config --global user.name "username" &lt;br&gt;</span><span class="w">
+</span><span class="go">git config --global user.email "email@example.com"
+</span></code></pre></div></div>
 
-<p>9)	R has functions tied to latex. And we will use them in this class to generate pdf files. You will need to install MacTex. Download MacTeX.pkg from <a href="https://tug.org/mactex/mactex-download.html">https://tug.org/mactex/mactex-download.html</a>. Double-click the pkg installer and follow the prompts. Leave all default settings in the installation options. This will also take a while!</p>
+<ol>
+  <li>R has functions tied to latex. And we will use them in this class to generate pdf files. You will need to install MacTex. Download MacTeX.pkg from <a href="https://tug.org/mactex/mactex-download.html">https://tug.org/mactex/mactex-download.html</a>. Double-click the pkg installer and follow the prompts. Leave all default settings in the installation options. This will also take a while!</li>
+</ol>
 
 <p>And you are all set! Your computer is ready to do run any packages and functions you will need for this class.</p>
 
@@ -351,15 +363,15 @@ $ git config –global user.email “email@example.com”</p>
     
       
         
-          <li><a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
         
       
         
-          <li><a href="https://app.slack.com/client/T04HMQAUCVD/C04HMQG2V1V" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
         
       
         
-          <li><a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -371,7 +383,7 @@ $ git config –global user.email “email@example.com”</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Luana Lima, Duke University</div>
+<div class="page__footer-copyright">&copy; 2024 Luana Lima, Duke University</div>
 
 
       </footer>

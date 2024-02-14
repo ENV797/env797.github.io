@@ -9,14 +9,14 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>M1 - Course Setup and Intro to TSA - Time Series Analysis for Energy Data</title>
+<!-- begin _includes/seo.html --><title>M1 - Course Setup and Intro to TSA - Time Series Analysis</title>
 <meta name="description" content="">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Time Series Analysis for Energy Data">
+<meta property="og:site_name" content="Time Series Analysis">
 <meta property="og:title" content="M1 - Course Setup and Intro to TSA">
 <meta property="og:url" content="http://localhost:4000/docs/modules/M1/">
 
@@ -60,7 +60,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis for Energy Data Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -101,14 +101,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis for Energy Data"></a>
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
         
         <a class="site-title" href="/">
-          Time Series Analysis for Energy Data
-          <span class="site-subtitle">ENVIRON 790.30</span>
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/_pages/syllabus/">Overview</a>
+              <a href="/_pages/syllabus/">Syllabus</a>
             </li><li class="masthead__menu-item">
               <a href="/_pages/lessons/">Schedule</a>
             </li><li class="masthead__menu-item">
@@ -169,6 +169,18 @@
         
 
         
+        <ul>
+          
+            <li><a href="/docs/modules/readings/soft-mac/">Setting up R and RStudio - MAC</a></li>
+          
+            <li><a href="/docs/modules/readings/soft-win/">Setting up R and RStudio - WIN</a></li>
+          
+            <li><a href="/docs/modules/readings/gitsetup/">Setting up GitHub</a></li>
+          
+            <li><a href="/docs/modules/readings/githelp/">Getting Started with GitHub</a></li>
+          
+        </ul>
+        
       </li>
     
       <li>
@@ -190,22 +202,6 @@
       <li>
         
           <a href="/docs/modules/M4/"><span class="nav__sub-title">Module 4</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M5/"><span class="nav__sub-title">Module 5</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M6/"><span class="nav__sub-title">Module 6</span></a>
         
 
         
@@ -241,6 +237,14 @@
 
       <section class="page__content e-content" itemprop="text">
         
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#learning-objectives">Learning Objectives</a></li><li><a href="#slides">Slides</a></li><li><a href="#resources-to-get-your-platform-ready">Resources to get your platform ready</a></li><li><a href="#resources-for-linking-github-and-rstudio-optional">Resources for linking GitHub and RStudio (optional)</a></li><li><a href="#resources-for-intro-to-time-series">Resources for Intro to Time Series</a></li><li><a href="#recordings-optional">Recordings (optional)</a></li><li><a href="#deliverables">Deliverables</a></li></ul>
+
+            </nav>
+          </aside>
+        
         <h2 id="learning-objectives">Learning Objectives</h2>
 
 <p>This course will help you improve quantitative skills and programming skills. We will learn how to use R to handle data sets, to acquire information about the data and to fit time series models. <br /></p>
@@ -250,7 +254,7 @@
 <ul>
   <li>Setting up your platform;
     <ul>
-      <li>Setting up a virtual RStudio container or a Virtual Machine (VM); <br /></li>
+      <li>Setting up a virtual RStudio container; <br /></li>
       <li>A software installation guide to run R and RStudio for Mac and PC users; and <br /></li>
       <li>How to link RStudio and our class Github repository. If you don’t have prior GitHub experience, you can simply use Github to download code and data. You will not be required to fork and/or clone the class repository. <br /></li>
     </ul>
@@ -264,37 +268,31 @@
 
 <p>Here are the slide decks used in class. <br /></p>
 
-<p><a href="/docs/modules/PPTS/TSA_M1_ClassOverviewAndIntro_part1.pdf"> L1 - Course Overview and Introductions </a> <br />
-<a href="/docs/modules/PPTS/TSA_M1_IntroTSA_R_RStudio_part2.pdf"> L2 - Intro to TSA, R and RStudio </a> <br /></p>
+<p><a href="/docs/modules/PPTS/TSA_S24_M1_ClassOverviewAndIntro_part1.pdf"> L1 - Course Overview and Introductions </a> <br />
+<a href="/docs/modules/PPTS/TSA_S24_M1_IntroTSA_R_RStudio_part2.pdf"> L2 - Intro to TSA, R and RStudio </a> <br /></p>
 
 <h2 id="resources-to-get-your-platform-ready">Resources to get your platform ready</h2>
 
+<!-- * Option 1: Using a Virtual Machine (VM)
+
+  1. Follow the instructions on the <a href="/docs/modules/readings/VM/" > Virtual Machine Creation Guide. </a> <br>
+
+  2. Get your VM ready to use R and RStudion. Follow the instruction on Option 2 for Windows users. <br>
+ -->
 <ul>
   <li>
-    <p>Option 1: Using a Virtual Machine (VM)</p>
-
-    <ol>
-      <li>
-        <p>Follow the instructions on the <a href="/docs/modules/readings/VM/"> Virtual Machine Creation Guide. </a> <br /></p>
-      </li>
-      <li>
-        <p>Get your VM readu to use R and RStudion. Follow the instruction on Option 2 for Windows users. <br /></p>
-      </li>
-    </ol>
-  </li>
-  <li>
-    <p>Option 2: Using your personal machine <br /></p>
+    <p>Option 1: Using your personal machine <br /></p>
 
     <p>This option has distinct guides depending on which operating system you use. <br /></p>
 
-    <p><a href="/docs/modules/readings/soft-win/"> Guide for Windows users or students using a VM </a> <br /></p>
+    <p><a href="/docs/modules/readings/soft-win/"> Guide for Windows users </a> <br /></p>
 
     <p><a href="/docs/modules/readings/soft-mac/"> Guide for Mac users </a> <br /></p>
   </li>
   <li>
-    <p>Option 3: Using RStudio container</p>
+    <p>Option 2: Using RStudio container (preferred option)</p>
 
-    <p>A “container” is a web-based resource pre-configured to run all the software you need, but only that software. RStudio will work and appear just as they would on a typical desktop machine. No installation requires. You just need to set it up.</p>
+    <p>A “container” is a web-based resource pre-configured to run all the software you need, but only that software. RStudio will work and appear just as they would on a typical desktop machine. No installation required. You just need to set it up.</p>
 
     <ol>
       <li>Navigate to <a href="https://cmgr.oit.duke.edu/containers">https://cmgr.oit.duke.edu/containers</a> and log in. <br /></li>
@@ -305,15 +303,23 @@
 
 <h2 id="resources-for-linking-github-and-rstudio-optional">Resources for linking GitHub and RStudio (optional)</h2>
 
-<p>No matter which option you choose to run R, you also have the choice to link RStudio and Git to leverage version control and easily download scripts, data and any updates I make to the class repository. Here is a <a href="/docs/modules/readings/git/"> guide </a> and additional help for Git users.</p>
+<p>No matter which option you choose to run R, you also have the choice to link RStudio and Git to leverage version control and easily download scripts, data and any updates I make to the class repository. Here is a guide to <a href="/docs/modules/readings/gitsetup/"> Setting Up GitHub </a> and a guide to  <a href="/docs/modules/readings/githelp/"> Getting Started with Github </a>.</p>
 
 <h2 id="resources-for-intro-to-time-series">Resources for Intro to Time Series</h2>
 
 <p><a href="/docs/modules/readings/M1_Intro-TSA-in-R.pdf"> Intro to TSA in R </a></p>
 
+<h2 id="recordings-optional">Recordings (optional)</h2>
+
+<ul>
+  <li><a href="https://youtu.be/cSM755H4HlM?si=J8kDZEWD7BQfSF8p">Video 1</a>: R markdown (.Rmd) basics</li>
+  <li><a href="https://youtu.be/xTWjWxPkaq8?si=sOOkza0erpccnMD8">Video 2</a>: Intro to time series analysis</li>
+  <li><a href="https://youtu.be/3jcgVw4QeSw?si=F6eAuJvSw-bC2V7k">Video 3</a>: Intro to R and RStudio</li>
+</ul>
+
 <h2 id="deliverables">Deliverables</h2>
 
-<p>Go over the material under resouces and make sure you have R and RStudio ready to be used before we start M2. Complete <a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23/blob/main/Assignments/TSA_A01_Sp23.Rmd">Assignment 1</a>. The due date for A01 is Tuesday Jan 24.</p>
+<p>Go over the material under resouces and make sure you have R and RStudio ready to be used before we start M2. Complete <a href="https://github.com/ENV797/TSA_Sp24/blob/main/Assignments/TSA_A01_Sp24.Rmd">Assignment 1</a>. The due date for A01 is Friday Jan 19.</p>
 
         
       </section>
@@ -355,15 +361,15 @@
     
       
         
-          <li><a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
         
       
         
-          <li><a href="https://app.slack.com/client/T04HMQAUCVD/C04HMQG2V1V" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
         
       
         
-          <li><a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -375,7 +381,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Luana Lima, Duke University</div>
+<div class="page__footer-copyright">&copy; 2024 Luana Lima, Duke University</div>
 
 
       </footer>

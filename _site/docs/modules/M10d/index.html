@@ -9,15 +9,15 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>M10 - Rate Structure: Cost Allocation Methods - Time Series Analysis for Energy Data</title>
+<!-- begin _includes/seo.html --><title>M10 - Advanced Forecasting Models - Time Series Analysis</title>
 <meta name="description" content="">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Time Series Analysis for Energy Data">
-<meta property="og:title" content="M10 - Rate Structure: Cost Allocation Methods">
+<meta property="og:site_name" content="Time Series Analysis">
+<meta property="og:title" content="M10 - Advanced Forecasting Models">
 <meta property="og:url" content="http://localhost:4000/docs/modules/M10d/">
 
 
@@ -60,7 +60,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis for Energy Data Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -101,14 +101,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis for Energy Data"></a>
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
         
         <a class="site-title" href="/">
-          Time Series Analysis for Energy Data
-          <span class="site-subtitle">ENVIRON 790.30</span>
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/_pages/syllabus/">Overview</a>
+              <a href="/_pages/syllabus/">Syllabus</a>
             </li><li class="masthead__menu-item">
               <a href="/_pages/lessons/">Schedule</a>
             </li><li class="masthead__menu-item">
@@ -195,22 +195,6 @@
         
       </li>
     
-      <li>
-        
-          <a href="/docs/modules/M5/"><span class="nav__sub-title">Module 5</span></a>
-        
-
-        
-      </li>
-    
-      <li>
-        
-          <a href="/docs/modules/M6/"><span class="nav__sub-title">Module 6</span></a>
-        
-
-        
-      </li>
-    
   </ul>
 </nav>
 
@@ -221,7 +205,7 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="M10 - Rate Structure: Cost Allocation Methods">
+    <meta itemprop="headline" content="M10 - Advanced Forecasting Models">
     
     
     
@@ -230,7 +214,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="http://localhost:4000/docs/modules/M10d/" class="u-url" itemprop="url">M10 - Rate Structure: Cost Allocation Methods
+            <a href="http://localhost:4000/docs/modules/M10d/" class="u-url" itemprop="url">M10 - Advanced Forecasting Models
 </a>
           </h1>
           
@@ -242,50 +226,46 @@
       <section class="page__content e-content" itemprop="text">
         
         <h2 id="learning-objectives">Learning Objectives</h2>
-
-<p>In this module we will talk about the fundamentals of cost allocation methods and will go over a few well-known methods. The specific learning outcomes are:</p>
-
-<ul>
-  <li>Understand the basic principles for cost allocation;</li>
-  <li>Overview the three paradigms for cost allocation;</li>
-  <li>Learn/Recap DC Power Flow Analysis.</li>
-  <li>Explore 4 embedded cost method: Postage Stamp, MW-mile, Modulus and Zero Counterflow;</li>
-  <li>Explore 1 incremental cost method: ICRP;</li>
-  <li>Understand the revenue reconciliation process and why some of these methods will not recover the entire required revenue;</li>
-  <li>Apply all these methods to a case study.</li>
-</ul>
-
-<h2 id="slides">Slides</h2>
-
-<p>Here is a <a href="/docs/modules/PPTS/PSE_M10_CostAllocation.pdf"> link </a> to the slide deck used in class.</p>
-
-<h2 id="recordings">Recordings</h2>
-<ul>
-  
-  </ul>
+<p>The learning goals for this module are:</p>
 
 <ul>
-  <li><a href="https://warpwire.duke.edu/w/ObkEAA/"> Intro to Cost Allocation </a></li>
-  <li><a href="https://warpwire.duke.edu/w/O7kEAA/"> Power Flow Calculation </a></li>
-  <li><a href="https://warpwire.duke.edu/w/a8YEAA/"> Fixed Cost Methods </a></li>
-  <li><a href="https://warpwire.duke.edu/w/ccYEAA/"> Case Study - Part 1 </a></li>
-  <li><a href="https://warpwire.duke.edu/w/C8cEAA/"> Incremental Methods </a></li>
-  <li><a href="https://warpwire.duke.edu/w/CccEAA/"> Case Study - Part 2  </a></li>
+  <li>Discuss challenges in forecasting higher frequency time series;</li>
+  <li>Discuss complex seasonality;</li>
+  <li>Go over some functions in R that can handle multiple seasonal pattern;</li>
+  <li>Develop a code for forecasting daily electricity demand.</li>
 </ul>
 
 <h2 id="resources">Resources</h2>
 
-<p>Additional resources and readings on benchmark analysis.</p>
+<p>This module is a collection of models and R functions for forescasting more granular data with multiple seasonality. Please refer to the Rmd file available <a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23/blob/main/Lessons/M10_AdvancedForecastingModels.Rmd">here</a>.</p>
+
+<p>Additional reading to support the models introduced in this module are provided in the Rmd file. The data file used in this module is too large to be uploaded to Github, you may directly download the data <code class="language-plaintext highlighter-rouge">household_power_consumption.zip</code> using this <a href="https://archive.ics.uci.edu/ml/
+machine-learning-databases/00235/">link</a>.</p>
 
 <ul>
-  <li><a href="/docs/modules/readings/M10_DistTariffDesign.pdf"> Tariff Design for Distribution Systems </a></li>
+  <li>Forecasting: Principles and Practice by Rob J Hyndman and George Athanasopoulos, <a href="https://otexts.com/fpp2/advanced.html">Section 11: Advanced Forecasting Methods</a></li>
 </ul>
 
-<h2 id="topics-for-discussionreflection">Topics for Discussion/Reflection</h2>
+<h2 id="recordings">Recordings</h2>
+
+<p>This module is explained in four videos that go over a Rmd file that contains code used to forecast higher frequency time series and discussion regarding complex seasonalities and how to model them with R.</p>
+
+<iframe width="260" height="115" src="https://www.youtube.com/embed/Xv2DhBBWAWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<p><br /></p>
+
+<iframe width="260" height="115" src="https://www.youtube.com/embed/0z3wCyouRos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<p><br /></p>
+
+<iframe width="260" height="115" src="https://www.youtube.com/embed/bx_Cwq888rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<p><br /></p>
+
+<iframe width="260" height="115" src="https://www.youtube.com/embed/-p_XvwrhJOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<p><br /></p>
 
 <h2 id="deliverables">Deliverables</h2>
 
-<p>There will be no assignment/journal associated with this module. Work on your final project.</p>
+<p>For this module you will complete <a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main">Assignment 9 - Part 1</a>. The due date for A9-part1 is April 3rd.</p>
+
 
         
       </section>
@@ -327,15 +307,15 @@
     
       
         
-          <li><a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
         
       
         
-          <li><a href="https://app.slack.com/client/T04HMQAUCVD/C04HMQG2V1V" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
         
       
         
-          <li><a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
         
@@ -347,7 +327,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Luana Lima, Duke University</div>
+<div class="page__footer-copyright">&copy; 2024 Luana Lima, Duke University</div>
 
 
       </footer>

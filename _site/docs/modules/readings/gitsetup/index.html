@@ -1,0 +1,448 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Integrating Git and RStudio - Time Series Analysis</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Time Series Analysis">
+<meta property="og:title" content="Integrating Git and RStudio">
+<meta property="og:url" content="http://localhost:4000/docs/modules/readings/gitsetup/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/docs/modules/readings/gitsetup/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis"></a>
+        
+        <a class="site-title" href="/">
+          Time Series Analysis
+          <span class="site-subtitle">ENVIRON/ENERGY 797</span>
+        </a>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/_pages/syllabus/">Syllabus</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/_pages/lessons/">Schedule</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/_pages/modulelist/">Modules</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/_pages/assignments/">Assignments</a>
+            </li>
+</ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/_pages/modulelist/"><span class="nav__sub-title">Overview</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M1/"><span class="nav__sub-title">Module 1</span></a>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/modules/readings/soft-mac/">Setting up R and RStudio - MAC</a></li>
+          
+            <li><a href="/docs/modules/readings/soft-win/">Setting up R and RStudio - WIN</a></li>
+          
+            <li><a href="/docs/modules/readings/gitsetup/" class="active">Setting up GitHub</a></li>
+          
+            <li><a href="/docs/modules/readings/githelp/">Getting Started with GitHub</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M2/"><span class="nav__sub-title">Module 2</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M3/"><span class="nav__sub-title">Module 3</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M4/"><span class="nav__sub-title">Module 4</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Integrating Git and RStudio">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/docs/modules/readings/gitsetup/" class="u-url" itemprop="url">Integrating Git and RStudio
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+<li><a href="#registering-a-github-account">Registering a GitHub account</a></li>
+<li><a href="#forking-and-cloning">Forking and Cloning</a></li>
+<li><a href="#adding-your-github-credentials-to-your-local-repository">Adding your GitHub credentials to your local repository</a></li>
+<li><a href="#creating-you-personal-access-token">Creating you personal access token</a></li>
+<li><a href="#add-you-personal-access-token-pat-to-rstudio">Add you Personal Access Token (PAT) to RStudio</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="registering-a-github-account">Registering a GitHub account</h2>
+
+<p>You will need to create a free GitHub account. Navigate to <a href="https://github.com">https://github.com</a>, click the Sign Up button, and follow the instructions to set up a free account. Note that if you already have an account you don’t to register for a new one.</p>
+
+<h2 id="forking-and-cloning">Forking and Cloning</h2>
+
+<ol>
+  <li>
+    <p>Go to the following <a href="https://github.com/ENV797/TSA_Sp24">class repository</a> on GitHub.</p>
+  </li>
+  <li>
+    <p>Sign in (via the button in the upper right corner).</p>
+  </li>
+  <li>
+    <p>In the upper right corner, click the “fork” button. This will prompt you to create a copy of the class repository in your own user account. See image below. This is called a fork of the original repository, which you can edit rather than simply download.</p>
+  </li>
+</ol>
+
+<p><img src="/docs/assets/git-fork.jpeg" alt="Screenshot"></p>
+
+<ol>
+  <li>Clone your repository to your local drive using RStudio. <br>
+</li>
+</ol>
+
+<ul>
+  <li>
+    <p>Copy the GitHub repository URL of your cloned repository - not the main class repository. <br></p>
+  </li>
+  <li>
+    <p>Click the green “Code” button to expose the Clone sub-menu. With the <code class="language-plaintext highlighter-rouge">HTTPS</code> option selected, click the <img class="emoji" title=":clipboard:" alt=":clipboard:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png" height="20" width="20"> icon which copies the forked repsository’s URL to your clipboard. <br></p>
+  </li>
+</ul>
+
+<p><img src="/docs/assets/git-clone.jpeg" alt="Screenshot"></p>
+
+<ul>
+  <li>Launch RStudio and select “New Project” from the File menu. Choose “Version Control” and “Git.” <br>
+</li>
+</ul>
+
+<p><img src="/docs/assets/R-newproj.jpeg" alt="Screenshot"></p>
+
+<ul>
+  <li>Paste the repository URL and give your repository a name and a file path (i.e. a local folder where you want to store the file in your computer). The file path should be one that persists permanently, i.e., either on the course server for lab computers or a dedicated space on your personal computer. <br>
+</li>
+</ul>
+
+<p>You now have tracked the course repository (i.e., the “upstream”), forked the repository into your own account (i.e., the “remote”), and cloned the repository to your drive (i.e., the “local”). We will be updating each of these repositories as the course progresses. <br></p>
+
+<p>Note: Clone with SSH is an option as well. For a guide on creating SSH keys, see the Duke Libraries online guide here and navigate to the “Generate SSH keys” section:  https://git-rfun.library.duke.edu/outline.html#generate_ssh_keys_in_advance_of_the_workshop. <br></p>
+
+<h2 id="adding-your-github-credentials-to-your-local-repository">Adding your GitHub credentials to your local repository</h2>
+
+<p>In RStudio, activate the Git menu, and from this menu click the <img class="emoji" title=":gear:" alt=":gear:" src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png" height="20" width="20"> icon, and select the <code class="language-plaintext highlighter-rouge">Shell...</code> option. This will open up the Git Bash shell for this repository.</p>
+
+<p><img src="/docs/assets/R-git-shell.jpeg" alt="Screenshot"></p>
+
+<p>At the shell prompt type the following two commands to set you repository’s user name and email, replacing my Git username and email with the username and email associated with your GitHub account:</p>
+
+<p><img src="/docs/assets/R-terminal.jpeg" alt="Screenshot"></p>
+
+<div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">git config user.name 'yourusername'
+git config user.email 'youremail'
+</span></code></pre></div></div>
+
+<h2 id="creating-you-personal-access-token">Creating you personal access token</h2>
+
+<p>To facilitate repository management on GitHub, you will need to create a “personal access token” that grants your local machine the necessary permissions to upload new and modified files to your repository. Follow these steps to generate your personal access token:</p>
+
+<ol>
+  <li>Ensure that you are logged in to your personal GitHub account.</li>
+  <li>Navigate to the following link: <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a>.</li>
+  <li>Select “Generate new token (classic).” You might need to re-authenticate for security purposes.</li>
+  <li>During the token creation, configure the settings as follows:
+    <ul>
+      <li>Add a descriptive note to help identify the token’s purpose (e.g., “ENV 797”).</li>
+      <li>Set the expiration date to a time beyond the semester’s conclusion.</li>
+      <li>For scopes, check the following boxes: repo, workflow and user</li>
+    </ul>
+  </li>
+  <li>Click on “Generate token” to finalize the process.</li>
+  <li>
+<strong>Copy the generated token and store it in a secure location</strong>. This step is crucial, as you’ll need it to link any new RStudio session to your GitHub account and Github will not display the token again.</li>
+</ol>
+
+<p>This token serves as a secure and temporary credential for your local machine, enabling seamless interactions with your GitHub repository throughout the semester.</p>
+
+<h2 id="add-you-personal-access-token-pat-to-rstudio">Add you Personal Access Token (PAT) to RStudio</h2>
+
+<p>Go to the Console window in RStudio - not the Terminal. Console shoudl be next to the Terminal tab as shown in the image below.</p>
+
+<p><img src="/docs/assets/R-console.jpeg" alt="Screenshot"></p>
+
+<ol>
+  <li>Install the “usethis” package with the following command:</li>
+</ol>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s2">"usethis"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+<ol>
+  <li>Then run following command to save your PAT as a Git credential:</li>
+</ol>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gitcreds</span><span class="o">::</span><span class="n">gitcreds_set</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+<p>This will start a set of prompts asking you to save your PAT as an encrypted file on the local machine. Paste the token you copied on step 6 of “Creating your Own Personal Token” and you are all set.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+        
+      
+        
+          <li><a href="https://tsa-sp24.slack.com" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/ENV797/TSA_Sp24" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://cmgr.oit.duke.edu/containers" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Rcontainer</a></li>
+        
+      
+    
+
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2024 Luana Lima, Duke University</div>
+
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
