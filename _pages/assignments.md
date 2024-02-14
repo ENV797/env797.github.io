@@ -7,13 +7,12 @@ output:
 excerpt: Class Schedule
 #redirect_from: "/theme-setup/"
 last_modified_at: "2024-01-08"
-layout: single
+layout: splash
 #sidebar: overview
 
 ---
 
-You should use Sakai to submit your work. Assignments should be submitted using the *Assignments* tab. This is a tentative schedule.
-<br>
+You should use Sakai to submit your work. Assignments should be submitted using the **Assignments** tab. This is a tentative schedule. <br>
 
 | Assigment | Due Date |
 |------------------|-------------------|
