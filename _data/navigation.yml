@@ -1,0 +1,73 @@
+# main links
+main:
+  - title: "Syllabus"
+    url: /_pages/syllabus/
+  - title: "Schedule"
+    url: /_pages/lessons/
+  - title: "Modules"
+    url: /_pages/modulelist/
+  - title: "Assignments"
+    url: /_pages/assignments/
+
+overview:
+  - title: Course Overview
+    url: /_pages/syllabus#course-overview
+  - title: Course Description
+    url: /_pages/syllabus#course-description
+  - title: Course Format and Grading
+    url: /_pages/syllabus#course-format-and-grading
+  - title: Class Etiquette
+    url: /_pages/syllabus#class-etiquette
+  - title: Honor Code
+    url: /_pages/syllabus#nicholas-school-honor-code
+  - title: Land Acknowledgement
+    url: /_pages/syllabus#land-acknowledgment
+
+modules:
+  - title: Overview
+    url: /_pages/modulelist/
+  - title: Module 1
+    url: /docs/modules/M1/
+  - title: Module 2
+    url: /docs/modules/M2/
+  - title: Module 3
+    url: /docs/modules/M3/
+  - title: Module 4
+    url: /docs/modules/M4/
+  # - title: Module 5
+  #   url: /docs/modules/M5/
+  # - title: Module 6
+  #   url: /docs/modules/M6/
+  # - title: Module 7
+  #   url: /docs/modules/M7/
+  # - title: Module 8
+  #   url: /docs/modules/M8/
+  # - title: Module 9
+  #   url: /docs/modules/M9/
+  # - title: Module 10
+  #   url: /docs/modules/M10/
+  # - title: Module 11
+  #   url: /docs/modules/M11/
+  # - title: Module 12
+  #   url: /docs/modules/M12/
+
+module1:
+  - title: Overview
+    url: /_pages/modulelist/
+  - title: Module 1
+    url: /docs/modules/M1/
+    children:
+      - title: Setting up R and RStudio - MAC
+        url: /docs/modules/readings/soft-mac/
+      - title: Setting up R and RStudio - WIN
+        url: /docs/modules/readings/soft-win/
+      - title: Setting up GitHub
+        url: /docs/modules/readings/gitsetup/
+      - title: Getting Started with GitHub 
+        url: /docs/modules/readings/githelp/
+  - title: Module 2
+    url: /docs/modules/M2/
+  - title: Module 3
+    url: /docs/modules/M3/
+  - title: Module 4
+    url: /docs/modules/M4/

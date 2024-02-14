@@ -1,0 +1,95 @@
+I"S<p>This material was adapted from ENV 872 - Environmental Data Analytics and developed by Prof. John Fay.</p>
+
+<h2 id="r">R</h2>
+
+<p>If you already have R installed, please ensure you are using version 4.2.2. If not, follow the instructions below. If you do not have R installed, follow the instructions below.</p>
+
+<ol>
+  <li>Open a web browser and naviate to the Duke CRAN mirror: http://archive.linux.duke.edu/cran/</li>
+  <li>Please select your operating system (Mac, Windows, Linux)</li>
+</ol>
+
+<blockquote>
+  <p>For Windows Users: install the <code class="language-plaintext highlighter-rouge">base package</code></p>
+</blockquote>
+
+<h2 id="rstudio">RStudio</h2>
+<p>If you already have RStudio installed, please ensure you are using version 2022.12.0. To check that you are using the most up-to-date version, go to the Help menu in RStudio and select “Check for Updates.” You will be instructed to install any updates that are available.</p>
+
+<p>If you do not have RStudio  installed on your computer, please do the following:</p>
+
+<ol>
+  <li>Open a web browser and naviate to <a href="http://www.rstudio.com/products/rstudio/download/">http://www.rstudio.com/products/rstudio/download/</a></li>
+  <li>Select and download the appropriate installer for your operating system (Windows, Mac, Linux)</li>
+  <li>Open the installer and follow the onscreen directions</li>
+</ol>
+
+<h2 id="git">Git</h2>
+<p>If you already use Git, please ensure you are using the most up-to-date version.
+If you do not have Git yet installed, please do the following:</p>
+
+<ol>
+  <li>Open a web browser and naviate to <a href="https://git-scm.com/download/">https://git-scm.com/download/</a></li>
+  <li>Select and download the appropriate installer for your operating system (Windows, Mac, Linux)</li>
+  <li>Open the installer and follow the onscreen directions.</li>
+</ol>
+
+<blockquote>
+  <p><strong>On Windows</strong>:</p>
+
+  <p>Use all the of the installation defaults <strong>except</strong> chosing <code class="language-plaintext highlighter-rouge">Notepad++</code> as your default Git editor.</p>
+</blockquote>
+
+<p>During installation, you will be asked how to configure the line-ending conversions</p>
+
+<blockquote>
+  <p><strong>On Windows</strong>: We recommend “Checkout Windows-style, commit Unix-style line endings”</p>
+</blockquote>
+
+<h2 id="github">GitHub</h2>
+
+<ol>
+  <li>Sign up for a GitHub account at <a href="https://github.com">https://github.com</a>. Use your Duke email address.</li>
+  <li>(OPTIONAL) Sign up for a GitHub Student Pack at <a href="https://education.github.com/pack">https://education.github.com/pack</a> if you would like your repositories to be private. The default for repositories is public.</li>
+  <li>(OPTIONAL) We will be using the https protocol to clone repositories. Another option is to use SSH keys, which is a more secure option. For a guide on how to generate your own SSH key(s), see the guide from the Duke Library: https://git-rfun.library.duke.edu/outline.html.</li>
+</ol>
+
+<h2 id="latex">LaTeX</h2>
+<p>LaTeX will be used by RStudio and the R package <code class="language-plaintext highlighter-rouge">Knitr</code> to convert our RMarkdown files (.Rmd) into professional-quality PDF files. 
+If you do not have LaTeX installed on your computer, please do the following:</p>
+
+<p><strong>On a PC</strong>:</p>
+
+<ol>
+  <li>Install Basic MiKTeX: http://miktex.org/download.</li>
+  <li>Note: you need to use the MiKTeX package manager to download required style guides.</li>
+</ol>
+
+<p>By default, RStudio uses style guides to format our PDF documents. 
+These style guides include framed.sty and titling.sty.
+We have found that not all LaTeX installations include these style guides.
+If you do not have them, you will get an error message when you “Knit”.
+To fix this, you need to install the required files.</p>
+
+<p><strong>On a PC</strong>:
+You have two options:</p>
+
+<blockquote>
+  <ol>
+    <li>Open the MikTeX package manager from Start.</li>
+    <li>
+      <p>Search for and install the following: framed, titling</p>
+
+      <p>OR</p>
+    </li>
+    <li>Type the following in command line (or GitBash):
+      <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mpm <span class="nt">--install</span> framed
+mpm <span class="nt">--install</span> titling
+</code></pre></div>      </div>
+    </li>
+  </ol>
+</blockquote>
+
+<p>If your RMarkdown documents are not knitting properly, try the following troubleshooting option: 
+Go to the Start menu, find the menu “MiKTeX Console”, and choose the option <code class="language-plaintext highlighter-rouge">Always install missing packages on-the-fly</code></p>
+:ET

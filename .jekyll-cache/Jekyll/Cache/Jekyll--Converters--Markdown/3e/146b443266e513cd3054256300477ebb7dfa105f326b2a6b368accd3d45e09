@@ -1,0 +1,32 @@
+I"P<h2 id="learning-objectives">Learning Objectives</h2>
+
+<p>The learning goals for this module are:</p>
+
+<ul>
+  <li>Learn how to handle missing data in time series analysis; <br /></li>
+  <li>Discuss the different types of outliers and causes; <br /></li>
+  <li>Learn how to identify and properly remove outliers from a time series; <br /></li>
+  <li>Get familiar with R functions to handle missing data and outliers (package outliers). <br /></li>
+</ul>
+
+<h2 id="slides">Slides</h2>
+
+<p>Here is a <a href="/docs/modules/PPTS/TSA_M4_OutliersAndMissingData.pdf"> link </a> to the slide deck used in class.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Additional information and resources for this module will be found below. <br /></p>
+
+<ul>
+  <li>
+    <p><a href="/docs/modules/readings/M4_RPackage-Outliers.pdf"> Package Outliers Documentation </a></p>
+  </li>
+  <li>
+    <p>Forecasting: Principles and Practice by Rob J Hyndman and George Athanasopoulos, <a href="https://otexts.com/fpp2/missing-outliers.html">Section 12.9: Dealing with missing values and outliers</a></p>
+  </li>
+</ul>
+
+<h2 id="deliverables">Deliverables</h2>
+
+<p>For this module you will complete <a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main">Assignment 4</a>. The due date for A4 is February 17th.</p>
+:ET

@@ -1,0 +1,46 @@
+I" <h2 id="learning-objectives">Learning Objectives</h2>
+
+<p>The learning goals for this module are:</p>
+
+<ul>
+  <li>Discuss the seasonal ARIMA model (SARIMA); <br /></li>
+  <li>Learn how to idenfy order of seasonal component; <br /></li>
+  <li>Learn how to fit seasonal ARIMA models in R. <br /></li>
+</ul>
+
+<h2 id="slides">Slides</h2>
+
+<p>Here is a <a href="/docs/modules/PPTS/TSA_M6_SeasonalModels.pdf"> link </a> to the slide deck used in class.</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li>Time Series Analysis with Applications - Cryer and Shan - <a href="/docs/modules/readings/M5_TSA-cryer-ch6.pdf"> Chapter 6: Models for Stationary Time Series </a> <br /></li>
+</ul>
+
+<h2 id="recordings">Recordings</h2>
+
+<p>Here you will also find some helpful recordings.</p>
+
+<ul>
+  <li>Concept and components of seasonal ARIMA models - Part 1 <br /></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CX0_NgLDUmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<ul>
+  <li>Concept and components of seasonal ARIMA models - Part 2 <br /></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QqfWMq_fqmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<ul>
+  <li>How to fit SARIMA models using R <br /></li>
+</ul>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cy939o3Ic4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<h2 id="deliverables">Deliverables</h2>
+
+<p>For this module you will complete <a href="">Assignment 6 - TBU</a>. The due date for A6 is March 6.</p>
+:ET

@@ -1,0 +1,16 @@
+# /_data/authors.yml
+
+Luana Lima:
+  name        : "Luana Marangon Lima"
+  bio         : "Dr. Luana Marangon Lima is an Assistant Professor of the Practice in energy and environment analytics, environmental sciences and policy division of Duke University’s Nicholas School of the Environment and the Associate Director for Educational Programs at the Nicholas Institute for Energy, Environment and Sustainability"
+  avatar      : "/docs/assets/Luana_3-01.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lmm89@duke.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nicholas.duke.edu/people/faculty/lima"
+    - label: "Linked in"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://www.linkedin.com/in/luana-marangon-lima-8a997aa9/"

@@ -1,0 +1,70 @@
+I"u<p>The following steps should be performed on your personal computer. If you already have R and RStudio installed skip to step 4.</p>
+
+<p>1)	Download R from the link <a href="https://cran.r-project.org">https://cran.r-project.org</a>. Click on Download R for (Mac) OS X. Choose the most up to date version R-4.2.2.pkg. Install the package by double-clicking on it and working through the prompts. Leave all default settings in the installation options.</p>
+
+<p>2)	Download the free RStudio Desktop for mac from <a href="https://rstudio.com/products/rstudio/download/">https://rstudio.com/products/rstudio/download/</a>. Double click the downloaded .dmg file. Drag RStudio icon to the Applications folder.</p>
+
+<p>3)	Verify that RStudio and R are working together by double-clicking the RStudio icon. You should see a RStudio window with three panes.</p>
+
+<p>4)	If have already installed R and RStudio just open RStudio and check for any updates by following the steps below. In your console type</p>
+
+<blockquote>
+  <p>version</p>
+</blockquote>
+
+<p>This will show the R version you are running. If you need to update R you can use package updateR. This is the R code you will need to type in your console:</p>
+
+<blockquote>
+  <p>install.packages(‘devtools’) #assuming it is not already installed
+library(devtools)
+install_github(‘andreacirilloac/updateR’)
+library(updateR)
+updateR()</p>
+</blockquote>
+
+<p>You will then be prompted to enter your admin password.</p>
+
+<p>Another way to do it is just downloading the new version as in Step 1. Then restart your RStudio. The new R version will be loaded automatically. Then run the following command to update packages.</p>
+
+<blockquote>
+  <p>update.packages()</p>
+</blockquote>
+
+<p>Also check if you have the latest version of RStudio. Just navigate to Help &gt; Check for updates and you be redirect to the website in Step 2 if needed.</p>
+
+<p>5)	Some functions in R require a “X11 server”. You can get this using XQuartz. Download the latest version from <a href="https://www.xquartz.org">https://www.xquartz.org</a>. Open the downloaded DMG file and then double-click on the XQuartz.pkg. Follow the installation steps.</p>
+
+<p>6)	Optional for this class. Some packages in R requires compilation. Download and install Xcode (developer tools to create applications for Mac). You can download it from your App Store or use the link: <a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12">https://apps.apple.com/us/app/xcode/id497799835?mt=12</a>. This will take a while and requires a recent version of iOS. If you are using an old mac, please skip this step.</p>
+
+<p>7)	Now you need to install a package manager for macOS called Homebrew. From your Terminal type (or paste) the following command:</p>
+
+<blockquote>
+  <p>/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)”</p>
+</blockquote>
+
+<p>8)	Install git. Since you have Homebrew this will be simple. From your Terminal use the following command:</p>
+
+<blockquote>
+  <p>$ brew install git</p>
+</blockquote>
+
+<p>This command you automatically update Homebrew and run the brew clean up. If git is successfully installed you should see a message like this:</p>
+
+<p>You also need to install git-gui, git’s commit GUI and interactive history browser, use the command</p>
+
+<blockquote>
+  <p>$ brew install git-gui</p>
+</blockquote>
+
+<p>Make sure to set Git with your name and email address using the following commands on the Terminal with your name and email address.</p>
+
+<blockquote>
+  <p>$ git config –global user.name “username” <br />
+$ git config –global user.email “email@example.com”</p>
+</blockquote>
+
+<p>9)	R has functions tied to latex. And we will use them in this class to generate pdf files. You will need to install MacTex. Download MacTeX.pkg from <a href="https://tug.org/mactex/mactex-download.html">https://tug.org/mactex/mactex-download.html</a>. Double-click the pkg installer and follow the prompts. Leave all default settings in the installation options. This will also take a while!</p>
+
+<p>And you are all set! Your computer is ready to do run any packages and functions you will need for this class.</p>
+
+:ET

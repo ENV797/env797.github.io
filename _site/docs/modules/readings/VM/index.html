@@ -1,0 +1,390 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Setting up your virtual machine - Time Series Analysis for Energy Data</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Time Series Analysis for Energy Data">
+<meta property="og:title" content="Setting up your virtual machine">
+<meta property="og:url" content="http://localhost:4000/docs/modules/readings/VM/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/docs/modules/readings/VM/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Time Series Analysis for Energy Data Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/docs/assets/logoNSOE.png" alt="Time Series Analysis for Energy Data"></a>
+        
+        <a class="site-title" href="/">
+          Time Series Analysis for Energy Data
+          <span class="site-subtitle">ENVIRON 790.30</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/_pages/syllabus/">Overview</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/lessons/">Schedule</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/modulelist/">Modules</a>
+            </li><li class="masthead__menu-item">
+              <a href="/_pages/assignments/">Assignments</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/_pages/modulelist/"><span class="nav__sub-title">Overview</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M1/"><span class="nav__sub-title">Module 1</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M2/"><span class="nav__sub-title">Module 2</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M3/"><span class="nav__sub-title">Module 3</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M4/"><span class="nav__sub-title">Module 4</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M5/"><span class="nav__sub-title">Module 5</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <a href="/docs/modules/M6/"><span class="nav__sub-title">Module 6</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Setting up your virtual machine">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/docs/modules/readings/VM/" class="u-url" itemprop="url">Setting up your virtual machine
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Follow these instructions to create your Virtual Machine for the semester. This material was adapted from ENV 872 - Environmental Data Analytics and developed by Prof. John Fay.</p>
+
+<h2 id="1-creating-the-vm">1. Creating the VM</h2>
+<ul>
+  <li>
+    <p>Navigate to Duke’s Virtual Computing Manager: <a href="https://vcm.duke.edu/">https://vcm.duke.edu/</a></p>
+  </li>
+  <li>
+    <p>Log in. (Multifactor authentication is required…)</p>
+  </li>
+  <li>
+    <p>Click <strong>Reserve a VM</strong>.</p>
+  </li>
+  <li>
+    <p>From the <strong>New Virtual Machine Reservation</strong> list, select <em>Windows Office 2016</em> and click <strong>Reserve</strong>. (Alternatively, click the <em>Available Apps</em> tab, then select the <em>Windows Office 2016</em> option from there…) Accept the Terms of Use and then your VM assembly will begin!</p>
+
+    <blockquote>
+      <p><em>It may take some time - up to 30 minutes - for your virtual machine to build. <strong>Please don’t delete then re-request a machine while waiting for your machine to be built as this will just slow things down more.</strong> An email will be sent to you when the machine is ready to use. Remember that before you can remote desktop into the machine, you’ll need to be using a VPN connection.</em></p>
+
+      <blockquote>
+        <p><strong><em>NOTE: I’ve heard reports that build times during peak periods have been in the hours! If you haven’t received an email stating your machine is ready, then its still building. Canceling and restarting will only increase build times for everyone.</em></strong></p>
+      </blockquote>
+
+      <p><em>Note the name of your machine, something like <code class="language-plaintext highlighter-rouge">vcm-12345.vm.duke.edu</code>. You can use this to access your machine via remote desktop. Or you can always return to https://vcm.duke.edu/ to log into your machine.</em></p>
+
+      <p><em>Also note that VMs are set to power down every night. This is to conserve power. However, if you are likely to use your machine consecutive days or will have processes running over serval days, you may consider switching off the “Automatic power downs” option.</em></p>
+    </blockquote>
+  </li>
+  <li>
+    <p>When your machine has been built, click the <strong>Remote Desktop</strong> button. (</p>
+
+    <blockquote>
+      <p>→ <em>Don’t forget that you’ll need to use Duke’s VPN if you are not doing this from a machine already on the campus network!</em></p>
+
+      <p>→ <em>You may wish to save instead of open the remote desktop <code class="language-plaintext highlighter-rouge">vcm-XXXXX.vm.duke.edu.rdp</code> file. I recommend saving it to your desktop so that you’ll have an easy shortcut to your virtual machine.</em></p>
+
+      <p>→ <em>The first time you use your machine, it may have to download and install a number of Windows updates, requiring a restart to complete. It’s best to let this happen and restart when asked.</em></p>
+
+      <p>→ <em>If you get a “failed to connect” error, it’s possible that your machine is not finished being built. Wait a few more moments; if after 20 minutes or so you still cannot connect, seek help.</em></p>
+
+      <p>→ <em>You may get a warning stating “The publisher of this remote connection can’t be identified. Do you want to connect anyway.” That’s ok; check the “Don’t ask me again” and you won’t get this for this machine anymore.</em></p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Log in using your Duke NetID <strong><u>preceded by `WIN/`</u></strong> (e.g. <code class="language-plaintext highlighter-rouge">WIN/jpfay</code>) and your Duke password.</p>
+  </li>
+</ul>
+
+<h2 id="2-installing-base-software-using-chocolatey">2. Installing base software using “chocolatey”</h2>
+
+<ul>
+  <li>
+    <p>Open Windows PowerShell as administrator</p>
+
+    <ul>
+      <li>Right-click Windows PowerShell from the Windows Menu and select Run as Administrator</li>
+    </ul>
+  </li>
+  <li>
+    <p>At the PowerShell prompt, type the following to install Google Chrome, Notepad++, and 7zip:</p>
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">choco</span><span class="w"> </span><span class="nx">install</span><span class="w"> </span><span class="nx">googlechrome</span><span class="w"> </span><span class="nx">notepadplusplus</span><span class="w"> </span><span class="nx">7zip</span><span class="w"> </span><span class="nt">-y</span><span class="w">
+</span></code></pre></div>    </div>
+    <p>The script will fetch the installers and install them! You should see some icons on your desktop.</p>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Sakai</a></li>
+        
+      
+        
+          <li><a href="https://app.slack.com/client/T04HMQAUCVD/C04HMQG2V1V" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-slack" aria-hidden="true"></i> Slack</a></li>
+        
+      
+        
+          <li><a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://cmgr.oit.duke.edu/containers" rel="nofollow noopener noreferrer"><i class="fas fa-link" aria-hidden="true"></i> Rcontainer</a></li>
+        
+      
+    
+
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Luana Lima, Duke University</div>
+
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

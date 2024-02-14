@@ -1,0 +1,243 @@
+I"H<h1 id="class-proposed-schedule">Class Proposed Schedule</h1>
+<p><br />
+The proposed schedule below is subject to change. My initial plan is to cover all the material listed here but I might modify it if extra time is needed for some particular topics. I will update this table as needed during the semester.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lecture</th>
+      <th>Module</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Homework</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>L1</td>
+      <td><a href="/docs/modules/M1/"> M1 </a></td>
+      <td>Jan 12</td>
+      <td>Introductions and Course Overview</td>
+      <td>Join Slack Workspace</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L2</td>
+      <td><a href="/docs/modules/M1/"> M1 </a></td>
+      <td>Jan 17</td>
+      <td>Intro to Time Series Analysis, Intro to R and RStudio, Github, R Markdown</td>
+      <td>A01</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L3</td>
+      <td><a href="/docs/modules/M2/"> M2 </a></td>
+      <td>Jan 19</td>
+      <td>Autocovariance and autocorrelation function</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L4</td>
+      <td><a href="/docs/modules/M2/"> M2 </a></td>
+      <td>Jan 24</td>
+      <td>Partial autocorrelation function <br /> ACF and PACF in R</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L5</td>
+      <td><a href="/docs/modules/M2/"> M2 </a> <br /> <a href="/docs/modules/M2/"> M3 </a></td>
+      <td>Jan 26</td>
+      <td>ACF, PACF and plots in R <br /> Trend Component Estimation</td>
+      <td>A02</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L6</td>
+      <td><a href="/docs/modules/M3/"> M3 </a></td>
+      <td>Jan 31</td>
+      <td>Seasonal Component - Stochastic vs Deterministic Trend</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L7</td>
+      <td><a href="/docs/modules/M3/"> M3 </a></td>
+      <td>Feb 2</td>
+      <td>Trend and Seasonal component estimation in R</td>
+      <td>A03</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L8</td>
+      <td><a href="/docs/modules/M3/"> M3 </a></td>
+      <td>Feb 7</td>
+      <td>Stationarity Tests: Mann Kendall, Spearman, Augmented Dickey Fuller</td>
+      <td>A04</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L9</td>
+      <td><a href="/docs/modules/M4/"> M4 </a></td>
+      <td>Feb 9</td>
+      <td>Outlier types, detection, how to handle missing data</td>
+      <td>A05</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L10</td>
+      <td><a href="/docs/modules/M6/"> M5 </a></td>
+      <td>Feb 14</td>
+      <td>A3 Solution <br /> Finish outliers in R <br /> Intro to the Traditional Box &amp; Jenkins Models - ARIMA family</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L11</td>
+      <td><a href="/docs/modules/M6/"> M5 </a></td>
+      <td>Feb 16</td>
+      <td>Stationary Models: AR and MA process</td>
+      <td>A06</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L12</td>
+      <td><a href="/docs/modules/M7/"> M6 </a></td>
+      <td>Feb 21</td>
+      <td>A4 Solution <br /> More on AR and MA order <br /> ARIMA Models in R</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L13</td>
+      <td><a href="/docs/modules/M7/"> M6 </a></td>
+      <td>Feb 23</td>
+      <td>Seasonal ARIMA and Periodic ARMA Models</td>
+      <td>A07</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L14</td>
+      <td><a href="/docs/modules/M8/"> M8 </a></td>
+      <td>Feb 28</td>
+      <td>Model Diagnostics, Residual Analysis and Model Selection</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L15</td>
+      <td><a href="/docs/modules/M8/"> M8 </a></td>
+      <td>Mar 2</td>
+      <td>Model Performance Metrics</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L16</td>
+      <td>-</td>
+      <td>Mar 7</td>
+      <td>Class Project, Team building, Proposal presentations</td>
+      <td>Project Proposal (2-3 slides)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L17</td>
+      <td><a href="/docs/modules/M8/"> M8 </a></td>
+      <td>Mar 9</td>
+      <td>Intro to Forecasting, Averaging Techniques</td>
+      <td>A08</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td> </td>
+      <td>Mar 14</td>
+      <td><strong>Spring break no class</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td> </td>
+      <td>Mar 16</td>
+      <td><strong>Spring break no class</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L18</td>
+      <td><a href="/docs/modules/M9/"> M9 </a></td>
+      <td>Mar 21</td>
+      <td>Forecasting with ARIMA Models, Forecasting in R</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L19</td>
+      <td><a href="/docs/modules/M9/"> M9 </a></td>
+      <td>Mar 23</td>
+      <td>More Forecasting in R</td>
+      <td>A09 - part I</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L20</td>
+      <td><a href="/docs/modules/M10/"> M10 </a></td>
+      <td>Mar 28</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L21</td>
+      <td><a href="/docs/modules/M10/"> M10 </a></td>
+      <td>Mar 30</td>
+      <td> </td>
+      <td>A09 - part II</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L22</td>
+      <td><a href="/docs/modules/M11/"> M11 </a></td>
+      <td>Apr 4</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L23</td>
+      <td><a href="/docs/modules/M11/"> M11 </a></td>
+      <td>Apr 6</td>
+      <td> </td>
+      <td>Work on project</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L24</td>
+      <td><a href="/docs/modules/M12/"> M12 </a></td>
+      <td>Apr 11</td>
+      <td> </td>
+      <td>Work on project</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>Apr 13</td>
+      <td><strong>MEM Symposium no class</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>L25</td>
+      <td>-</td>
+      <td>Apr 18</td>
+      <td><strong>Final Project Presentations</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+:ET

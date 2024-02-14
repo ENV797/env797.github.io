@@ -1,0 +1,230 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+
+
+############ Site settings
+
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Time Series Analysis"
+subtitle: "ENVIRON/ENERGY 797"
+site.author: "Luana Marangon Lima"
+email: "lmm89@duke.edu"
+description: ""
+#baseurl: "/course-website" # the subpath of your site, e.g. /blog
+url: "http://env797.github.io/" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  env797
+repository: ENV797/env797.github.io
+
+logo: "/docs/assets/logoNSOE.png"
+
+
+############ Build settings
+markdown: kramdown
+#theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+
+# Outputting
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+
+include: ['_images', '_css','_data','_pages','_layout']
+
+
+#github: [metadata]
+
+#Navigation bar
+sidebar:
+  - main
+  - overview
+  - modules
+
+
+
+#image: "/docs/assets/images/translines.jpeg"
+
+#header:
+#  teaser: /_images/nicholas-school-default.jpg
+
+
+
+########### Site Author
+#author:
+#  name             : "Luana Lima"
+#  avatar           :  "/docs/assets/Luana_3-01.jpg"
+#  bio              : "Dr. Luana Marangon Lima is a visiting assistant professor of energy and environment in the environmental sciences and policy division of Duke University’s Nicholas School of the Environment and the Associate Director for Educational Programs at the Nicholas Institute for Energy, Environment and Sustainability"
+#  links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "mailto:lmm89@duke.edu"
+#    - label: "Linkedin"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://www.linkedin.com/in/luana-marangon-lima-8a997aa9/"
+
+
+# Site Footer
+footer:
+  links:
+    - label: "Sakai"
+      icon:
+      url: "https://sakai.duke.edu/portal/site/416faae2-12d5-4239-842a-189af80fe042/tool/e15afd39-93d9-43f5-8127-10c686e97b84"
+
+    - label: "Slack"
+      icon: "fab fa-fw fa-slack"
+      url: "https://tsa-sp24.slack.com"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ENV797/TSA_Sp24"
+
+    - label: "Rcontainer"
+      icon:
+      url: "https://cmgr.oit.duke.edu/containers"
+
+
+#
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+  # HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+#defaults:
+##   # _docs
+#   - scope:
+#       path: "docs"
+#       type: docs
+#       layout: default
+#       read_time: false
+#       author_profile: true
+#       share: false
+#       comments: false
+#       sidebar:
+#         nav: "docs"
+#   # _pages
+#   - scope:
+#       path: "_pages"
+#       type: pages
+#     values:
+#       layout: default
+#       sidebar:
+#         nav: "modules"
+
+
+
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+#
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-172014212-1"
+#     anonymize_ip: false # default
+
+#include: ['_images', '_css']
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,36 @@
+I"n<h2 id="learning-objectives">Learning Objectives</h2>
+
+<p>The learning goals for this module are:</p>
+
+<ul>
+  <li>Learn how to estimate and model a trend component;</li>
+  <li>Learn how to estimate and model a seasonal component;</li>
+  <li>Discuss the difference of deterministic and stochastic trend;</li>
+  <li>Discuss stationarity tests to detect trend;</li>
+  <li>Develop a script in R to identify and model trend and seasonal component.</li>
+</ul>
+
+<h2 id="slides">Slides</h2>
+
+<p>Here is a <a href="/docs/modules/PPTS/TSA_M3_TrendAndSeasonality.pdf"> link </a> to the slide deck used in class.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Additional information and resources for this module will be found below. <br /></p>
+
+<ul>
+  <li>
+    <p>Time Series Analysis with Applications - Cryer and Shan - <a href="/docs/modules/readings/M3_TSA-cryer-ch3.pdf"> Chapter 3: Trends </a> <br /></p>
+  </li>
+  <li>
+    <p>Additional readings on seasonal <a href="https://otexts.com/fpp2/useful-predictors.html">dummies</a></p>
+  </li>
+  <li>
+    <p><a href="/docs/modules/readings/M3_Rpack-trend.pdf"> Package Kendall Documentation </a></p>
+  </li>
+</ul>
+
+<h2 id="deliverables">Deliverables</h2>
+
+<p>For this module you will complete <a href="https://github.com/ENV790/TimeSeriesAnalysis_Sp23/blob/main/Assignments/TSA_A03_Sp23.Rmd">Assignment 3</a>. The due date for A03 is Friday Feb 10.</p>
+:ET
