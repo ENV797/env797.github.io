@@ -43,4 +43,4 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L21 | <a href="/docs/modules/M10/" > M10 </a> | Apr 2 | Advanced Forecasting Models in R |  A09 - part II |
 | L22 | <a href="/docs/modules/M11/" > M11 </a> | Apr 9 | TBATS models in R <br> Scenario Generation in R <br> <a href="/docs/modules/PPTS/TSA_Recap.pdf" > Course Recap </a>  | Work on project/competition |
 | L23 | <a href="/docs/modules/M11/" > M11 </a> | Apr 11 | **MEM Symposium - no class** | Work on project/competition |
-| L24 | - | Apr 16  **Final Project Presentations** <br> <a href="/docs/assets/Group_Schedule.png" > Presentation Schedule </a> | Work on project/competition |
+| L24 | - | Apr 16 | **Final Project Presentations** <br> <a href="/docs/assets/Group_Schedule.png" > Presentation Schedule </a> | Work on project/competition |
