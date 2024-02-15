@@ -34,8 +34,8 @@ modules:
     url: /docs/modules/M3/
   - title: Module 4
     url: /docs/modules/M4/
-  # - title: Module 5
-  #   url: /docs/modules/M5/
+  - title: Module 5
+    url: /docs/modules/M5/
   # - title: Module 6
   #   url: /docs/modules/M6/
   # - title: Module 7
@@ -71,3 +71,5 @@ module1:
     url: /docs/modules/M3/
   - title: Module 4
     url: /docs/modules/M4/
+  - title: Module 5
+    url: /docs/modules/M5/

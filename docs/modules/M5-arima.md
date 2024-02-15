@@ -1,7 +1,7 @@
 ---
 title: "M5 - ARIMA Models"
 layout: single
-permalink: /docs/modules/M5d/
+permalink: /docs/modules/M5/
 sidebar:
  nav: modules
 ---
@@ -11,13 +11,13 @@ sidebar:
 The learning goals for this module are:
 
 * Discuss the non-seasonal ARIMA class of models for stationary series and its variations (AR, MA and ARMA); <br>
-* Understand the main differences between and autoregressiva and moving average component; <br>
+* Understand the main differences between autoregressive and moving average component; <br>
 * Understand the unit root condition for stationarity; <br>
 * Learn how to fit non-seasonal ARIMA models in R. <br>
 
 ## Slides
 
-Here is a <a href="/docs/modules/PPTS/TSA_M5_StationaryModels.pdf" > link </a> to the slide deck used in class.
+Here is a <a href="/docs/modules/PPTS/TSA_S24_M5_StationaryModels.pdf" > link </a> to the slide deck used in class.
 
 
 ## Resources
@@ -50,4 +50,4 @@ Here you will also find some helpful recordings.
 
 ## Deliverables
 
-For this module you will complete [Assignment 5](https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main). The due date for A5 is February 27.
+For this module you will complete [Assignment 6](). The due date for A6 is February 26.

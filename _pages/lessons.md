@@ -25,10 +25,10 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L5 |  <a href="/docs/modules/M3/" > M3 </a>  | Jan 25 | Trend Component Estimation | A03 |
 | L6 | <a href="/docs/modules/M3/" > M3 </a> | Jan 30 | Seasonal Component - Stochastic vs Deterministic Trend | A03 |
 | L7 | <a href="/docs/modules/M3/" > M3 </a> | Feb 1 | Trend and Seasonal component estimation in R | A03 |
-| L8 | <a href="/docs/modules/M3/" > M3 </a> | Feb 6 | A3 solution/discussion <br> Stochastic Trend  | A04 |
-| L9 | <a href="/docs/modules/M4/" > M4 </a> | Feb 8 | Stationarity Tests: Mann Kendall, Spearman, Augmented Dickey Fuller <br> Outlier types, detection, how to handle missing data| A04 |
-| L10 | <a href="/docs/modules/M4/" > M4 </a> | Feb 13 | Finish outliers in R <br>  | A05 |
-| L11 | <a href="/docs/modules/M5/" > M5 </a> | Feb 15 | Intro to the Traditional Box & Jenkins Models - ARIMA family <br> Stationary Models: AR and MA process | A06 |
+| L8 | <a href="/docs/modules/M3/" > M3 </a> | Feb 6 | A3 solution <br> Stochastic vs Deterministic Trend  | A04 |
+| L9 | <a href="/docs/modules/M3/" > M3 </a> | Feb 8 | Stationarity Tests- Mann Kendall <br> Spearman <br> Augmented Dickey Fuller | A04 |
+| L10 | <a href="/docs/modules/M4/" > M4 </a> | Feb 13 | A4 solution <br> Outlier types and detection <br> How to handle missing data <br>  | A05 |
+| L11 | <a href="/docs/modules/M4/" > M4 </a> | Feb 15 | Outliers in R <br> Intro to the Traditional Box  Jenkins Models - ARIMA family <br> Stationary Models: AR and MA process | A05 |
 | L12 | <a href="/docs/modules/M5/" > M5 </a> | Feb 20 | AR and MA order (poll) <br> ARIMA(p,d,q) Models | A06  |
 | L13 | <a href="/docs/modules/M5/" > M5 </a> | Feb 22 | ARIMA(p,d,q) <br> Fitting ARIMA Models in R <br>  | A07 |
 | L14 | <a href="/docs/modules/M6/" > M6 </a> | Feb 27 | Seasonal ARIMA and Periodic ARMA Models | A07 |
