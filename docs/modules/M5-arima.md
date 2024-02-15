@@ -28,25 +28,15 @@ Here is a <a href="/docs/modules/PPTS/TSA_S24_M5_StationaryModels.pdf" > link </
 
 * Forecasting: Principles and Practice by Rob J Hyndman and George Athanasopoulos, [Chapter 8: ARIMA Models](https://otexts.com/fpp2/arima.html)
 
-## Recordings
+## Recordings (optional)
 
 Here you will also find some helpful recordings.
 
-* Intro to ARIMA Models - Part 1 <br>
+* [Intro to ARIMA Models - Part 1](https://www.youtube.com/embed/LtWjs6QnlPU)  <br>
+* [Intro to ARIMA Models - Part 2](https://www.youtube.com/embed/vAjHTreb8to) <br>
+* [How to fit ARIMA models in R - Part 1](https://www.youtube.com/embed/NkMc39iZSnk) <br>
+* [How to fit ARIMA models in R - Part 2](https://www.youtube.com/embed/oKXzo3fVe8s) 
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/LtWjs6QnlPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-* Intro to ARIMA Models - Part 2 <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/vAjHTreb8to" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-* How to fit ARIMA models in R - Part 1 <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/NkMc39iZSnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-* How to fit ARIMA models in R - Part 2 
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/oKXzo3fVe8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Deliverables
 
