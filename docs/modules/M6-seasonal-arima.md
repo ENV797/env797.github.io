@@ -1,7 +1,7 @@
 ---
 title: "M6 - Seasonal ARIMA Models"
 layout: single
-permalink: /docs/modules/M6d/
+permalink: /docs/modules/M6/
 sidebar:
  nav: modules
 ---
@@ -16,7 +16,7 @@ The learning goals for this module are:
 
 ## Slides
 
-Here is a <a href="/docs/modules/PPTS/TSA_M6_SeasonalModels.pdf" > link </a> to the slide deck used in class.
+Here is a <a href="/docs/modules/PPTS/TSA_S24_M6_SeasonalModels.pdf" > link </a> to the slide deck used in class.
 
 
 ## Resources
@@ -29,18 +29,12 @@ Here is a <a href="/docs/modules/PPTS/TSA_M6_SeasonalModels.pdf" > link </a> to 
 
 Here you will also find some helpful recordings.
 
-* Concept and components of seasonal ARIMA models - Part 1 <br> 
+* [Concept and components of seasonal ARIMA models - Part 1](https://www.youtube.com/embed/CX0_NgLDUmk) <br> 
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/CX0_NgLDUmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Concept and components of seasonal ARIMA models - Part 2](https://www.youtube.com/embed/QqfWMq_fqmw) <br>
 
-* Concept and components of seasonal ARIMA models - Part 2 <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/QqfWMq_fqmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-* How to fit SARIMA models using R <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/cy939o3Ic4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [How to fit SARIMA models using R](https://www.youtube.com/embed/cy939o3Ic4o) <br>
 
 ## Deliverables
 
-For this module you will complete [Assignment 6](https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main). The due date for A6 is March 6.
+For this module you will complete [Assignment ?](). The due date for A6 is March ?.
