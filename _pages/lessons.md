@@ -30,11 +30,11 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L10 | <a href="/docs/modules/M4/" > M4 </a> | Feb 13 | A4 solution <br> Outlier types and detection <br> How to handle missing data <br>  | A05 |
 | L11 | <a href="/docs/modules/M4/" > M4 </a> | Feb 15 | Outliers in R files: "M4_MissingDataAndOutliers_Example1.Rmd" <br> "M4_MissingDataAndOutliers_Example2.Rmd" <br> Intro to the Traditional Box  Jenkins Models - ARIMA family <br> Stationary Models: AR and MA process | A05 |
 | L12 | <a href="/docs/modules/M5/" > M5 </a> | Feb 20 | A5 solution <br> AR and MA models  | A06  |
-| L13 | <a href="/docs/modules/M5/" > M5 </a> | Feb 22 | ARIMA(p,d,q) Models <br> Fitting ARIMA Models in R | A06 |
-| L14 | <a href="/docs/modules/M6/" > M6 </a> | Feb 27 | Seasonal ARIMA and Periodic ARMA Models | A07 |
-| L15 | <a href="/docs/modules/M6/" > M6 </a> / <a href="/docs/modules/M7/" > M7 </a> | Feb 29 |  Finish SARIMA in R <br> Intro to Forecasting <br> Averaging Techniques <br> | A07  |
-| L16 | <a href="/docs/modules/M7/" > M7 </a> | Mar 5 | Forecasting with ARIMA Models <br> Forecasting in R | A08 |
-| L17 | <a href="/docs/modules/M8/" > M8 </a> | Mar 7 | Model Diagnostics <br> Residual Analysis and Model Selection| A08 <br> Project Proposal (2-3 slides) 
+| L13 | <a href="/docs/modules/M5/" > M5 </a> | Feb 22 | ARIMA(p,d,q) Models <br> Fitting ARIMA Models in R  <br> R file: "M5_ARIMAModels_AfterClassFeb22.Rmd" | A06 |
+| L14 | <a href="/docs/modules/M6/" > M6 </a> | Feb 27 | Seasonal ARIMA and Periodic ARMA Models <br> R file: "M5_ARIMAModels_ClassFeb27.Rmd"| A07 |
+| L15 | <a href="/docs/modules/M6/" > M6 </a> | Feb 29 | A6 solution <br> Finish SARIMA in R <br>  <br> R file: "M6_SeasonalARIMA_AfterClassFeb29.Rmd" | A07  |
+| L16 | <a href="/docs/modules/M7/" > M7 </a> | Mar 5 | Intro to Forecasting <br> Averaging Techniques <br> Forecasting with ARIMA Models <br> Forecasting in R | A07 |
+| L17 | <a href="/docs/modules/M8/" > M8 </a> | Mar 7 | Model Diagnostics <br> Residual Analysis and Model Selection| A07 <br> Project Proposal (2-3 slides) 
 | - |  | Mar 12 | **Spring break no class** |  |
 | - |  | Mar 14 | **Spring break no class** |  |
 | L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 |  Model Performance in R  |  |

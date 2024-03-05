@@ -1,7 +1,7 @@
 ---
 title: "M7 - Introduction to Time Series Forecasting"
 layout: single
-permalink: /docs/modules/M7d/
+permalink: /docs/modules/M7/
 sidebar:
  nav: modules
 ---
@@ -18,7 +18,7 @@ The learning goals for this module are:
 
 ## Slides
 
-Here is a <a href="/docs/modules/PPTS/TSA_M7_Intro_Forecasting.pdf" > link </a> to the slide deck used in class.
+Here is a <a href="/docs/modules/PPTS/TSA_S24_M7_Intro_Forecasting.pdf" > link </a> to the slide deck used in class.
 
 ## Resources
 
@@ -30,22 +30,15 @@ Additional resources and readings on time series forecasting.
 
 ## Recordings
 
-The first video will give an introduction to time series forecasting. <br>
-<iframe width="260" height="115" src="https://www.youtube.com/embed/9w5MQDchk0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Introduction to time series forecasting](https://www.youtube.com/embed/9w5MQDchk0Q) <br>
 
-The second video will go over forecasting with simple averaging techniques. <br>
+* [Forecasting with simple averaging techniques](https://www.youtube.com/embed/jzP_5XcvgbA) <br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/jzP_5XcvgbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Forecasting with ARIMA models](https://www.youtube.com/embed/zBjyYygFp1A) <br>
 
-The third video will go over forecasting with ARIMA models. <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/zBjyYygFp1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-The fourth video will go over forecasting with simple averaging methods and ARIMA in R. <br>
-
-<iframe width="260" height="115" src="https://www.youtube.com/embed/gp05zojTvWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Forecasting with simple averaging methods and ARIMA in R](https://www.youtube.com/embed/gp05zojTvWk) <br>
 
 
 ## Deliverables
 
-For this module you will complete [Assignment 7 - TBU](). The due date for A7 is March 20th.
+For this module you will complete [Assignment 8 - TBU](). The due date for A8 is March ?.
