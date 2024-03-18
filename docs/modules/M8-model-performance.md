@@ -1,7 +1,7 @@
 ---
 title: "M8 - Model Diagnostics, Selection and Performance"
 layout: single
-permalink: /docs/modules/M8d/
+permalink: /docs/modules/M8/
 sidebar:
  nav: modules
 ---
@@ -12,7 +12,7 @@ The learning goals for this module are: <br>
 
 * Discuss model selection criteria: Akaike and Bayesian Information Criteria; <br>
 * Discuss residual analyis; <br>
-* Introduce commom forecast performance/accuracy metrics; <br>
+* Introduce common forecast performance/accuracy metrics; <br>
 * Learn how to compute forecast accuracy in R. <br>
 
 ## Slides
@@ -26,11 +26,9 @@ Here is a <a href="/docs/modules/PPTS/TSA_M8_Model_Diagnostics.pdf" > link </a> 
 
 ## Recordings
 
-The first video will discuss model selection and performance.
-<iframe width="260" height="115" src="https://www.youtube.com/embed/jEQDyTvRmiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Model selection and performance](https://www.youtube.com/embed/jEQDyTvRmiU) <br>
 
-The second video will explore resiual analysis.
-<iframe width="260" height="115" src="https://www.youtube.com/embed/XcCSXDu4Fx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+* [Resiual analysis](https://www.youtube.com/embed/XcCSXDu4Fx8) <br>
 
 ## Optional Readings
 
@@ -42,4 +40,7 @@ If you want to learn more about parameter estimation for the ARIMA model, please
 
 ## Deliverables
 
-For this module you will complete [Assignment 8](https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main). The due date for A8 is March 27.
+There is no assignment associated with this module but you will have a chance to explore this content when checking accuracy of the model you develop for the load forecasting cometition and the final project. Visit the <a href="/_pages/assignments/" > Assignments </a> tab to check deadlines for A08 and the Final Project.
+
+<!-- For this module you will complete [Assignment 8](). The due date for A8 is March 27. 
+-->
