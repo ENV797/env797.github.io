@@ -33,13 +33,13 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L13 | <a href="/docs/modules/M5/" > M5 </a> | Feb 22 | ARIMA(p,d,q) Models <br> Fitting ARIMA Models in R  <br> R file: "M5_ARIMAModels_AfterClassFeb22.Rmd" | A06 |
 | L14 | <a href="/docs/modules/M6/" > M6 </a> | Feb 27 | Seasonal ARIMA and Periodic ARMA Models <br> R file: "M5_ARIMAModels_ClassFeb27.Rmd"| A07 |
 | L15 | <a href="/docs/modules/M6/" > M6 </a> | Feb 29 | A6 solution <br> Finish SARIMA in R <br>  <br> R file: "M6_SeasonalARIMA_AfterClassFeb29.Rmd" | A07  |
-| L16 | <a href="/docs/modules/M7/" > M7 </a> | Mar 5 | Intro to Forecasting <br> Averaging Techniques <br> Forecasting with ARIMA Models <br> Forecasting in R | A07 |
-| L17 | <a href="/docs/modules/M7/" > M7 </a> | Mar 7 | | A07  
+| L16 | <a href="/docs/modules/M7/" > M7 </a> | Mar 5 | Intro to Forecasting <br> Averaging Techniques <br> Forecasting with ARIMA Models | A07 |
+| L17 | <a href="/docs/modules/M7/" > M7 </a> | Mar 7 | Forecasting in R <br> R file: "M7_Intro_Forecasting_AfterClassMar7.Rmd" | A07  
 | - | - | Mar 12 | **Spring break no class** | - |
 | - | - | Mar 14 | **Spring break no class** | - |
-| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 | A07 solution <br> Model Diagnostics <br> Residual Analysis and Model Selection  | Project Proposal (2-3 slides) |
-| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 21 | Model Performance in R <br> State-Space Models <br> Bayesian Statistics  | A08 - part I |
-| L20 | <a href="/docs/modules/M9/" > M9 </a> | Mar 26 | State Space Models in R <br> Go over Forecasting Competition <br> Forecasting higher frequency time series  | A08 - part I |
+| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 | A07 solution <br> Model Diagnostics <br> Residual Analysis and Model Selection <br> Go over Final Project folder | Project Proposal (2-3 slides) |
+| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 21 | Model Performance in R <br> R file: "M8_ModelPerformance_ClassMar21.Rmd" <br> Go over Forecasting Competition | A08 - part I |
+| L20 | <a href="/docs/modules/M9/" > M9 </a> | Mar 26 | State-Space Models <br> Bayesian Statistics <br> State Space Models in R <br>  <br> Forecasting higher frequency time series  | A08 - part I |
 | L21 | <a href="/docs/modules/M9/" > M9 </a> | Mar 28 | Advanced Forecasting Models | A09 - part II  |
 | L22 | <a href="/docs/modules/M10/" > M10 </a> | Apr 2 | Advanced Forecasting Models in R |  A09 - part II |
 | L23 | <a href="/docs/modules/M10/" > M10 </a> | Apr 4 | TBATS models in R | Work on project/competition |
