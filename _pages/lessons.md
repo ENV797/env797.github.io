@@ -37,8 +37,8 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L17 | <a href="/docs/modules/M7/" > M7 </a> | Mar 7 | Forecasting in R <br> R file: "M7_Intro_Forecasting_AfterClassMar7.Rmd" | A07  
 | - | - | Mar 12 | **Spring break no class** | - |
 | - | - | Mar 14 | **Spring break no class** | - |
-| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 | A07 solution <br> Model Diagnostics <br> Residual Analysis and Model Selection <br> Go over Final Project folder | A09 - Part I: <br> Project Proposal (2-3 slides) |
-| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 21 | Model Performance in R <br> R file: "M8_ModelPerformance_ClassMar21.Rmd" <br> Go over Forecasting Competition | A08 - part I |
+| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 | Model Diagnostics <br> Residual Analysis and Model Selection <br> Go over Final Project folder | A09 - Part I: <br> Project Proposal (2-3 slides) |
+| L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 21 | A07 solution <br> Model Performance in R <br> R file: "M8_ModelPerformance_ClassMar21.Rmd" <br> Go over Forecasting Competition | A08 - part I |
 | L20 | <a href="/docs/modules/M9/" > M9 </a> | Mar 26 | State-Space Models <br> Bayesian Statistics <br> State Space Models in R <br>  <br> Forecasting higher frequency time series  | A08 - part I |
 | L21 | <a href="/docs/modules/M9/" > M9 </a> | Mar 28 | Advanced Forecasting Models | A09 - part II  |
 | L22 | <a href="/docs/modules/M10/" > M10 </a> | Apr 2 | Advanced Forecasting Models in R |  A09 - part II |
