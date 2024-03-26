@@ -1,7 +1,7 @@
 ---
 title: "M10 - Advanced Forecasting Models"
 layout: single
-permalink: /docs/modules/M10d/
+permalink: /docs/modules/M10/
 sidebar:
  nav: modules
 ---
@@ -17,7 +17,7 @@ The learning goals for this module are:
 
 ## Resources
 
-This module is a collection of models and R functions for forescasting more granular data with multiple seasonality. Please refer to the Rmd file available [here](https://github.com/ENV790/TimeSeriesAnalysis_Sp23/blob/main/Lessons/M10_AdvancedForecastingModels.Rmd).
+This module is a collection of models and R functions for forescasting more granular data with multiple seasonality. Please refer to the Rmd file available [here](https://github.com/ENV797/TSA_Sp24/blob/main/Lessons/M10_AdvancedForecastingModels.Rmd).
 
 Additional reading to support the models introduced in this module are provided in the Rmd file. The data file used in this module is too large to be uploaded to Github, you may directly download the data `household_power_consumption.zip` using this [link](https://archive.ics.uci.edu/ml/
 machine-learning-databases/00235/).
@@ -29,17 +29,17 @@ machine-learning-databases/00235/).
 
 This module is explained in four videos that go over a Rmd file that contains code used to forecast higher frequency time series and discussion regarding complex seasonalities and how to model them with R.
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/Xv2DhBBWAWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [Importing and Preparing the Data Set](https://www.youtube.com/embed/Xv2DhBBWAWk) <br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/0z3wCyouRos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [Decomposing Multiple Seasonal Series](https://www.youtube.com/embed/0z3wCyouRos) <br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/bx_Cwq888rw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [Forecasting - Part 1](https://www.youtube.com/embed/bx_Cwq888rw) <br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/-p_XvwrhJOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [Forecasting - Part 2](https://www.youtube.com/embed/-p_XvwrhJOE)<br>
 
 ## Deliverables
 
-For this module you will complete [Assignment 9 - Part 1](https://sakai.duke.edu/portal/site/a5ad3ba7-7739-47f2-b244-5845e726204e/tool/5ec87633-0272-40ea-9b4b-5ffd65f61cba?panel=Main). The due date for A9-part1 is April 3rd.
+For this module you will complete Assignment 8 - Forecasting Competition. Please refer to the Assignments tab for due dates.
 
 
 
