@@ -39,7 +39,7 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | - | - | Mar 14 | **Spring break no class** | - |
 | L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 19 | Model Diagnostics <br> Residual Analysis and Model Selection <br> Go over Final Project folder | A09 - Part I: <br> Project Proposal (2-3 slides) |
 | L18 | <a href="/docs/modules/M8/" > M8 </a> | Mar 21 | A07 solution <br> Model Performance in R <br> R file: "M8_ModelPerformance_ClassMar21.Rmd" <br> Go over Forecasting Competition | A08 - part I |
-| L20 | <a href="/docs/modules/M10/" > M10 </a> | Mar 26 | Advanced Forecasting Models <br> Forecasting higher frequency time series  | A08 - part I |
+| L20 | <a href="/docs/modules/M10/" > M10 </a> | Mar 26 | Advanced Forecasting Models <br> Forecasting higher frequency time series <br> R file: "M10_AdvancedForecastingModels.Rmd" | A08 - part I |
 | L21 | <a href="/docs/modules/M10/" > M10 </a> | Mar 28 | Advanced Forecasting Models in R | A08 - part II  |
 | L22 | <a href="/docs/modules/M9/" > M9 </a> | Apr 2 | State-Space Models <br> Bayesian Statistics <br> |  A08 - part II |
 | L23 | <a href="/docs/modules/M9/" > M9 </a> | Apr 4 | State Space Models in R | Work on project/competition |
