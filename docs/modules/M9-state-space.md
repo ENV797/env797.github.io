@@ -1,7 +1,7 @@
 ---
 title: "M9 - State Space Models"
 layout: single
-permalink: /docs/modules/M9d/
+permalink: /docs/modules/M9/
 sidebar:
  nav: modules
 ---
@@ -18,9 +18,7 @@ The learning goals for this module are:
 
 ## Slides
 
-Here is a <a href="/docs/modules/PPTS/TSA_M9_StateSpaceModels_beforeclass.pdf" > link </a> to the slide deck used in class.
-
-
+Here is a <a href="/docs/modules/PPTS/TSA_S24_M9_StateSpaceModels_beforeclass.pdf" > link </a> to the slide deck used in class.
 
 ## Resources
 
@@ -34,15 +32,15 @@ If you want to learn more about local level, linear trend and BSM please refer t
 
 The three videos below will cover state space models and the corresponding function in R you can use to implement them.
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/3PYo7LYv4IE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [Bayesian Framework](https://www.youtube.com/embed/3PYo7LYv4IE)<br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/f5ZhbDFFNS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [State Space Models](https://www.youtube.com/embed/f5ZhbDFFNS4) <br>
 
-<iframe width="260" height="115" src="https://www.youtube.com/embed/hKRRkYpsEqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br>
+* [State Space Models in R](https://www.youtube.com/embed/hKRRkYpsEqw) <br>
 
 ## Deliverables
 
-For this module you will complete [Assignment 9 - TBU](). The due date for A9 is April 3rd.
+For this module you will complete Assignment 8 - Forecasting Competition. Please refer to the Assignments tab for due dates.
 
 
 
