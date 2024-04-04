@@ -46,8 +46,8 @@ modules:
     url: /docs/modules/M9/
   - title: Module 10
     url: /docs/modules/M10/
-  # - title: Module 11
-  #   url: /docs/modules/M11/
+  - title: Module 11
+    url: /docs/modules/M11/
   # - title: Module 12
   #   url: /docs/modules/M12/
 
@@ -83,3 +83,5 @@ module1:
     url: /docs/modules/M9/
   - title: Module 10
     url: /docs/modules/M10/
+  - title: Module 11
+    url: /docs/modules/M11/
