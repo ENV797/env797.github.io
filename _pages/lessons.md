@@ -42,7 +42,7 @@ The proposed schedule below is subject to change. My initial plan is to cover al
 | L20 | <a href="/docs/modules/M10/" > M10 </a> | Mar 26 | Advanced Forecasting Models <br> Forecasting higher frequency time series <br> R file: "M10_AdvancedForecastingModels.Rmd" | A08 - part I |
 | L21 | <a href="/docs/modules/M10/" > M10 </a> | Mar 28 | Advanced Forecasting Models in R <br> Bayesian Statistics | A08 - part II  |
 | L22 | <a href="/docs/modules/M9/" > M9 </a> | Apr 2 | State-Space Models <br> R file: "M9_StateSpaceModels.Rmd" |  A08 - part II |
-| L23 | <a href="/docs/modules/M9/" > M9 </a> | Apr 4 | Scenario Generation in R file: "M10_ScenatioGeneration_ClassApr4.Rmd" | Work on project/competition |
+| L23 | <a href="/docs/modules/M9/" > M9 </a> | Apr 4 | Scenario Generation in R <br> R file: "M10_ScenatioGeneration_ClassApr4.Rmd" | Work on project/competition |
 | L22 | <a href="/docs/modules/M11/" > M11 </a> | Apr 9 | Scenario Generation with ARIMA in R <br> <a href="/docs/modules/PPTS/TSA_S24_Recap.pdf" > Course Recap - TBP </a>  | Work on project/competition |
 | L23 | - | Apr 11 | **MEM Symposium - no class** | Work on project/competition |
 | L24 | - | Apr 16 | **Final Project Presentations** <br> <a href="" > Presentation Schedule - TBP </a> | Work on project/competition |
