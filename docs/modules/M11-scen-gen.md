@@ -19,6 +19,9 @@ The learning goals for this module are:
 
 Here is a <a href="/docs/modules/PPTS/TSA_S24_M11_ScenarioGeneration.pdf" > link </a> to the slide deck used in class.
 
+## Resources
+
+* Example of application of state space linear models and scneario generation to <a href="/docs/modules/PPTS/TSA_S24_M11_HTSP_ApplicationStateSpaceModels.pdf" > inflow forecasting </a>.
 
 ## Recordings
 

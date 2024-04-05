@@ -18,7 +18,7 @@ The learning goals for this module are:
 
 ## Slides
 
-Here is a <a href="/docs/modules/PPTS/TSA_S24_M9_StateSpaceModels_beforeclass.pdf" > link </a> to the slide deck used in class.
+Here is a <a href="/docs/modules/PPTS/TSA_S24_M9_StateSpaceModels.pdf" > link </a> to the slide deck used in class. 
 
 ## Resources
 
